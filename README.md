@@ -1,2 +1,2 @@
 # SCBP
-springClound boilerplate
+springcloud boilerplate
