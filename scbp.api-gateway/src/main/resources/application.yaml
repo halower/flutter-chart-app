@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 9005
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
