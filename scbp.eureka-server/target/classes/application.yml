@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: scbp.eureka-server
+server:
+  port: 9001
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+  instance:
+    hostname: localhost
