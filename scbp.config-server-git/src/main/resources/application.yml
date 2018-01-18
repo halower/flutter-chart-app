@@ -9,5 +9,6 @@ spring:
           search-paths: config
 #         username:
 #         password:
+
 server:
   port: 9003
