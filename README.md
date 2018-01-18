@@ -8,9 +8,9 @@
 # 项目架构图
 ![](https://github.com/halower/SCBP/blob/master/images/scbp.png)
 # 项目解决方案
-scbp.eureka-server: 服务注册和发现
-scbp.eureka-{服务名}-client: 服务提供者
-scbp.config-server-git: 配置中心
+scbp.eureka-server: 服务注册和发现     
+scbp.eureka-{服务名}-client: 服务提供者     
+scbp.config-server-git: 配置中心        
 # 使用说明
 ## 如何获取配置信息
 1. 引入以下依赖
