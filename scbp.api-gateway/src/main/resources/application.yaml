@@ -1,9 +1,18 @@
 spring:
   application:
     name: api-gateway
+
 server:
   port: 9005
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9001/eureka/
+
+# 配置路由
+zuul:
+  routes:
+    test-client:
+      path: /test-client/**
+      serviceId: scbp.eureka-test-client
