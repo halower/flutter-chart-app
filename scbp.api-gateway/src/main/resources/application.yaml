@@ -9,15 +9,20 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9001/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
 
 # 配置路由
 zuul:
   prefix: /api
-  routes:
-    account-service:
-      path: /account/**
-      serviceId: scbp.api-account-service
-
+#  routes:
+#    account:
+#      path: /account/**
+#      serviceId: scbp.api-account-service
+#    test:
+#      path: /test/**
+#      serviceId: scbp.api-test-service
 ribbon:
   eureka:
     enabled: true

@@ -1,16 +1,8 @@
-server:
-  port: ${PORT:9006}
-
 spring:
   application:
-    name: scbp.api-account-service
-  data:
-    mongodb:
-      host: 127.0.0.1
-      port: 27017
-#      username: micro
-#      password: micro
-
+    name: scbp.api-test-service
+server:
+  port: 9002
 eureka:
   client:
     serviceUrl:
@@ -18,6 +10,9 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
+logging:
+  file: ${spring.application.name}.log
+
 ribbon:
   eureka:
     enabled: true

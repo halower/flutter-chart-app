@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: account-service
+    name: scbp.api-account-service
   data:
     mongodb:
       host: 127.0.0.1
@@ -15,9 +15,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${DISCOVERY_URL:http://localhost:9001}/eureka/
-#  instance:
-#    leaseRenewalIntervalInSeconds: 1
-#    leaseExpirationDurationInSeconds: 2
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
 ribbon:
   eureka:
     enabled: true
