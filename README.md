@@ -9,7 +9,7 @@
 ![](https://github.com/halower/SCBP/blob/master/images/scbp.png)
 # 项目解决方案
 scbp.eureka-server: 服务注册和发现     
-scbp.eureka-{服务名}-client: 服务提供者     
+scbp.api-{服务名}-service: 服务提供者     
 scbp.config-server-git: 配置中心        
 scbp.api-gateway : 服务网关       
 # 使用说明

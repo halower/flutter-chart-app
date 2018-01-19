@@ -12,7 +12,12 @@ eureka:
 
 # 配置路由
 zuul:
+  prefix: /api
   routes:
-    test-client:
-      path: /test-client/**
-      serviceId: scbp.eureka-test-client
+    account-service:
+      path: /account/**
+      serviceId: scbp.api-account-service
+
+ribbon:
+  eureka:
+    enabled: true

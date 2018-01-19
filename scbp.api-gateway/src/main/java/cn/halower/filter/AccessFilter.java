@@ -1,4 +1,4 @@
-package cn.halower;
+package cn.halower.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
