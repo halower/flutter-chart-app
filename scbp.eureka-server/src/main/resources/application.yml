@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: scbp.eureka-server
+    name: scbp-eureka-server
 server:
   port: 9001
 eureka:
@@ -10,4 +10,6 @@ eureka:
     fetch-registry: true
   instance:
     hostname: localhost
-
+endpoints:
+  health:
+    sensitive: false

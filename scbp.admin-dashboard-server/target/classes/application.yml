@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: scbp-admin-dashboard-server
+
+server:
+  port: 9010
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+  dashboard:
+    enabled: false
+
+management:
+  security:
+    enabled: false

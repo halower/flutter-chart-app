@@ -1,12 +1,12 @@
 spring:
   application:
-    name: scbp.api-test-service
+    name: scbp-api-test-service
 server:
   port: 9002
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${DISCOVERY_URL:http://localhost:9001}/eureka/
+      defaultZone: http://localhost:9010/eureka/
   instance:
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
@@ -16,3 +16,4 @@ logging:
 ribbon:
   eureka:
     enabled: true
+

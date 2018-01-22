@@ -32,10 +32,10 @@ public class Application {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("用户Api")
-                .description("测试使用")
-                .termsOfServiceUrl("http://www.baidu.com")
-                .contact(new Contact("halower", null, null))
+                .title("测试接口文档")
+                .description("测试接口文档说明")
+                .termsOfServiceUrl("http://localhost:9002")
+                .contact(new Contact("halower", "", "youzisoft@qq.com"))
                 .version("1.0")
                 .build();
     }

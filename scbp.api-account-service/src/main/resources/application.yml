@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: scbp.api-account-service
+    name: scbp-api-account-service
   data:
     mongodb:
       host: 127.0.0.1

@@ -21,10 +21,10 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("分布式购物系统")
-                .description("购物系统接口文档说明")
-                .termsOfServiceUrl("http://localhost:8081")
-                .contact(new Contact("林塬", "", "765371578@qq.com"))
+                .title("SCBP接口文档")
+                .description("SCBP接口文档说明")
+                .termsOfServiceUrl("http://localhost:9005")
+                .contact(new Contact("halower", "", "youzisoft@qq.com"))
                 .version("1.0")
                 .build();
     }
