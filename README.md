@@ -14,7 +14,7 @@
 4. 接口明确原则
 # 项目解决方案
 scbp.eureka-server: 服务注册和发现     
-scbp.api-{服务名}-service: 服务提供者【开发人员关注项目】 
+scbp.api-{服务名}-service: 服务提供者【开发人员关注项目】    
 scbp.config-server-git: 配置中心        
 scbp.api-gateway : 服务网关    
 # 使用说明
