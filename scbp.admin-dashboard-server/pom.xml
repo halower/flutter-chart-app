@@ -3,13 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.vanroy.cloud.samples</groupId>
-    <artifactId>eureka</artifactId>
+    <groupId>cn.halower</groupId>
+    <artifactId>scbp.admin-dashboard-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-
-    <name>Spring Cloud Dashboard Eureka Sample</name>
-    <description>Spring Cloud Dashboard Eureka sample project</description>
 
     <parent>
         <groupId>org.springframework.cloud</groupId>
