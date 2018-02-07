@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: scbp-api-jpademo-service
+server:
+  port: 9002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9010/eureka/
+  instance:
+    hostname: localhost
+management:
+  security:
+    enabled: false
+
