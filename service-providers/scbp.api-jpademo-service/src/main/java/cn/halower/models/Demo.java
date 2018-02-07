@@ -10,7 +10,7 @@ import lombok.*;
 public class Demo {
     @ApiModelProperty("ID")
     @NonNull
-    private Long id;
+    private int id;
     @ApiModelProperty("名称")
     @NonNull
     private String name;
