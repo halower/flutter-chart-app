@@ -19,7 +19,7 @@ scbp.api-{服务名}-service: 服务提供者【开发人员关注项目】
 scbp.config-server-git: 配置中心        
 scbp.api-gateway : 服务网关    
 # 使用说明
-## 如何获取配置信息
+## 一、如何获取配置信息
 1. 引入以下依赖
 ```
 <dependency>
@@ -42,7 +42,7 @@ server:
   port: your port
 ```
 3. 现在即可直接通过当前应用访问到所需配置，etc. http://localhost:9005/name
-## 如何添加接口文档注解
+## 二、如何添加接口文档注解
 ```
 @Api：说明该类的作用
 @ApiOperation：用在方法上，说明方法的作用，每一个url资源的定义
@@ -78,8 +78,7 @@ server:
 @RequestMapping(value = "/remove.json", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 public RestfulProtocol remove(Long id) {
 ```
-# 使用说明
-## 一、 如何创建一个服务
+## 三、 如何创建一个服务
 1. 新建一个Maven 项目，如果使用Intellij idea开发的话需要安装Lombok plugin，同时设置 Setting -> Compiler -> Annotation Processors -> Enable annotation processing勾选
 2. 在POM.xml 中添加必要的依赖
 ```
