@@ -144,3 +144,8 @@ management:
   security:
     enabled: false
 ```
+## 下一步计划
+1. JPA服务样例
+2. 配置中心支持本地文件和gitlab
+3. 支持服务高可用
+4. 消息驱动
