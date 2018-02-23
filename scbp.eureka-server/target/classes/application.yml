@@ -2,14 +2,8 @@
 spring:
   application:
     name: scbp-eureka-server
-  boot:
-    admin:
-      url: http://localhost:${server.port}
-  jackson:
-    serialization:
-      indent_output: true
 server:
-  port: 9001
+  port: 9010
 eureka:
   client:
     register-with-eureka: false

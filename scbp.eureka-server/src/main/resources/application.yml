@@ -3,11 +3,15 @@ spring:
   application:
     name: scbp-eureka-server
 server:
-  port: 9001
+  port: 8000
 eureka:
   client:
+# 单节点支持
     register-with-eureka: false
     fetch-registry: true
+# 高可用支持
+#    serviceUrl:
+#     defaultZone: http://localhost:8001/eureka
   instance:
     hostname: localhost
 endpoints:
