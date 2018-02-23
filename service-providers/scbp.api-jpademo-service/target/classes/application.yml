@@ -2,7 +2,7 @@ spring:
   application:
     name: scbp-api-jpademo-service
 server:
-  port: 9002
+  port: 9090
 eureka:
   client:
     serviceUrl:
