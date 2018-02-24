@@ -178,6 +178,27 @@ public class Application {
     }
 }
 ```
+## 四、如何支持服务追踪
+1. 在服务pom.xml中添加如下依赖
+```
+ <dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-sleuth</artifactId>
+ </dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+</dependency>
+```
+2. 在application.yml中添加如下配置
+```
+spring:
+  zipkin:
+    base-url: http://localhost:7000 # zipkin服务地址
+  sleuth:
+    sampler:
+      percentage: 1.0  #测试时获取所有日志,开发后统一调整概率值
+```
 ## 下一步计划
 1. JPA服务样例
 2. 配置中心支持本地文件和gitlab
