@@ -139,5 +139,13 @@
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-hystrix:9.5.0" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" level="project" />
     <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-sleuth:1.2.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.10" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-core:1.2.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.8.10" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-zipkin:1.2.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.java:zipkin:1.23.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter:zipkin-reporter:0.7.0" level="project" />
   </component>
 </module>

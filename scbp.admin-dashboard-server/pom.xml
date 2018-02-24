@@ -40,13 +40,13 @@
                 <version>1.0.0</version>
                 <executions>
                     <!--执行 mvn package 时 自动 执行 mvn docker:build-->
-                    <execution>
-                        <id>build-image</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>build</goal>
-                        </goals>
-                    </execution>
+                    <!--<execution>-->
+                        <!--<id>build-image</id>-->
+                        <!--<phase>package</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>build</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
                 </executions>
                 <configuration>
                     <!--推送到私有仓库-->

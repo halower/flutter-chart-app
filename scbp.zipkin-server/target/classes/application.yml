@@ -1,0 +1,13 @@
+server:
+  port: 9411
+#zipkin:
+#  storage:
+#    type: mysql
+#spring:
+#  datasource:
+#    schema: classpath:/mysql.sql
+#    url: jdbc:mysql://localhost:3306/ZIPKIN?autoReconnect=true&characterEncoding=utf-8
+#    username: root
+#    password: 123456
+#    initialize: true
+#    continueOnError: true
