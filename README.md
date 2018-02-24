@@ -82,7 +82,13 @@ public RestfulProtocol remove(Long id) {
 1. 新建一个Maven 项目，如果使用Intellij idea开发的话需要安装Lombok plugin，同时设置 Setting -> Compiler -> Annotation Processors -> Enable annotation processing勾选
 2. 在POM.xml 中添加必要的依赖
 ```
-        <dependencies>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.4.RELEASE</version>
+        <relativePath/>
+    </parent>
+    <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
@@ -131,18 +137,46 @@ public RestfulProtocol remove(Long id) {
 ```
 spring:
   application:
-    name: scbp-api-jpademo-service # 服务识别名称
+    name: xxxx # 服务识别名称
 server:
-  port: 9002
+  port: xxxx
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:9010/eureka/
+      defaultZone: http://localhost:xxxx/eureka/
   instance:
-    hostname: localhost
-management:
-  security:
-    enabled: false
+    hostname: xxxx
+```
+4. 编写程序入口
+```
+@SpringBootApplication
+@EnableEurekaClient
+@EnableSwagger2
+public class Application {
+   public static void main(String[] args) {
+       SpringApplication.run(Application.class, args);
+   }
+
+    @Bean
+    public Docket createRestApi() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo())
+                .select()
+                .apis(RequestHandlerSelectors.basePackage("api扫描包"))
+                .paths(PathSelectors.any())
+                .build();
+    }
+
+    private ApiInfo apiInfo() {
+        return new ApiInfoBuilder()
+                .title("接口文档注释")
+                .description("接口文档注释说明")
+                .termsOfServiceUrl("帮助连接")
+                .contact(new Contact("作者", "", "邮箱"))
+                .version("1.0")
+                .build();
+    }
+}
 ```
 ## 下一步计划
 1. JPA服务样例
