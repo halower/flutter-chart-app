@@ -22,9 +22,13 @@
 |--scbp.zipkin-server: 服务追踪 
 |--service-providers：服务提供者
 |--scbp.admin-dashboard-server: 作用等同于 scbp.eureka-server，功能更强大
+|--scbp.service-providers: 服务集合
    |--scbp.api-{服务名}-service: 服务提供者【开发人员介入的工程】 
 ```
 # 使用说明
+> 开发人员只关注写自己的服务，即 ```scbp.api-{服务名}-service``` 
+>> 约定如下文件夹功能：
+>>> apis - RestController 集合, models - 实体集合, dtos - 数据传输对象集合, feigns - feign接口集合， 其它的待定
 ## 一、如何获取配置信息
 1. 引入以下依赖
 ```
