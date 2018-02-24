@@ -6,6 +6,7 @@
 4. 客户端负载均衡（Ribbon）
 5. 持续集成
 6. 配置中心
+7. 服务追踪分析 (ZipKin + ELK)
 # 项目架构图
 ![](https://github.com/halower/SCBP/blob/master/images/scbp.png)
 # 设计原则   
@@ -15,13 +16,13 @@
 4. 接口明确原则
 # 项目解决方案
 ```
-scbp.eureka-server: 服务注册和发现        
-scbp.config-server-git: 配置中心        
-scbp.api-gateway : 服务网关
-scbp.zipkin-server: 服务追踪 
-service-providers：服务提供者
-scbp.admin-dashboard-server: 作用等同于 scbp.eureka-server，功能更强大
-   scbp.api-{服务名}-service: 服务提供者【开发人员介入的工程】 
+|--scbp.eureka-server: 服务注册和发现        
+|--scbp.config-server-git: 配置中心        
+|--scbp.api-gateway : 服务网关
+|--scbp.zipkin-server: 服务追踪 
+|--service-providers：服务提供者
+|--scbp.admin-dashboard-server: 作用等同于 scbp.eureka-server，功能更强大
+   |--scbp.api-{服务名}-service: 服务提供者【开发人员介入的工程】 
 ```
 # 使用说明
 ## 一、如何获取配置信息
