@@ -14,10 +14,15 @@
 3. 轻量级通信原则
 4. 接口明确原则
 # 项目解决方案
-scbp.eureka-server: 服务注册和发现     
-scbp.api-{服务名}-service: 服务提供者【开发人员关注项目】    
+```
+scbp.eureka-server: 服务注册和发现        
 scbp.config-server-git: 配置中心        
-scbp.api-gateway : 服务网关    
+scbp.api-gateway : 服务网关
+scbp.zipkin-server: 服务追踪 
+service-providers：服务提供者
+scbp.admin-dashboard-server: 作用等同于 scbp.eureka-server，功能更强大
+   scbp.api-{服务名}-service: 服务提供者【开发人员介入的工程】 
+```
 # 使用说明
 ## 一、如何获取配置信息
 1. 引入以下依赖
@@ -198,6 +203,23 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0  #测试时获取所有日志,开发后统一调整概率值
+```
+## 五、 服务间如何进行伪RPC调用
+1. 在服务pom.xml中添加如下依赖
+```
+   <dependency>
+       <groupId>org.springframework.cloud</groupId>
+       <artifactId>spring-cloud-starter-feign</artifactId>
+       <version>1.3.0.RELEASE</version>
+   </dependency>
+```
+2. 使用方式(定义接口后使用依赖注入的方式在使用类中调用)
+```
+@FeignClient(name = "服务名")
+public interface TestFeignClient {
+    @GetMapping("/demo/{id}")
+    public Demo findDemo(@PathVariable("id") int id);
+}
 ```
 ## 下一步计划
 1. JPA服务样例
