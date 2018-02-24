@@ -13,11 +13,4 @@ eureka:
 logging:
   file: ${spring.application.name}.log
 
-ribbon:
-  eureka:
-    enabled: true
-
-management:
-  security:
-    enabled: false
 
