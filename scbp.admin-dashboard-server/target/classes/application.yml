@@ -3,14 +3,15 @@ spring:
     name: scbp-admin-dashboard-server
 
 server:
-  port: 9010
+  port: 8000
 
 eureka:
   client:
     registerWithEureka: true
     fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://localhost:${server.port}/eureka/
+# 高可用支持
+#   serviceUrl:
+#   defaultZone: http://localhost:8001/eureka
   server:
     waitTimeInMsWhenSyncEmpty: 0
   dashboard:
