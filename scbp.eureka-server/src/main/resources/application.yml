@@ -6,9 +6,9 @@ server:
   port: 8000
 eureka:
   client:
-# 单节点支持
+ # 单机版不注册到Eureka
     register-with-eureka: false
-    fetch-registry: true
+    fetch-registry: false
 # 高可用支持
 #    serviceUrl:
 #     defaultZone: http://localhost:8001/eureka

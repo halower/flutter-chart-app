@@ -30,6 +30,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-commons</artifactId>
+            <version>1.2.0.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -40,13 +45,13 @@
                 <version>1.0.0</version>
                 <executions>
                     <!--执行 mvn package 时 自动 执行 mvn docker:build-->
-                    <!--<execution>-->
-                        <!--<id>build-image</id>-->
-                        <!--<phase>package</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>build</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
+                    <execution>
+                        <id>build-image</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
                 </executions>
                 <configuration>
                     <!--推送到私有仓库-->

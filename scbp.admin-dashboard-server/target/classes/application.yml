@@ -1,13 +1,12 @@
 spring:
   application:
     name: scbp-admin-dashboard-server
-
 server:
   port: 8000
 
 eureka:
   client:
-    registerWithEureka: true
+    registerWithEureka: false
     fetchRegistry: false
 # 高可用支持
 #   serviceUrl:
