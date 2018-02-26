@@ -1,9 +1,8 @@
-
 spring:
   application:
     name: scbp-eureka-server
 server:
-  port: 8001
+  port: 9001
 eureka:
   client:
  # 单机版不注册到Eureka

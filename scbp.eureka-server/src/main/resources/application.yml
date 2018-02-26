@@ -1,19 +1,21 @@
-
 spring:
   application:
     name: scbp-eureka-server
 server:
-  port: 8888
+  port: 8001
 eureka:
-  client:
  # 单机版不注册到Eureka
-    register-with-eureka: false
-    fetch-registry: false
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
 # 高可用支持
-#    serviceUrl:
-#     defaultZone: http://localhost:8001/eureka
-  instance:
-    hostname: localhost
-endpoints:
-  health:
-    sensitive: false
+#   serviceUrl:
+#   defaultZone: http://localhost:8001/eureka
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+  dashboard:
+    enabled: false
+
+management:
+  security:
+    enabled: false

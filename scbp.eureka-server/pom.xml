@@ -40,23 +40,13 @@
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>1.0.0</version>
-                <executions>
-                    <!--执行 mvn package 时 自动 执行 mvn docker:build-->
-                    <execution>
-                        <id>build-image</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>build</goal>
-                        </goals>
-                    </execution>
-                </executions>
                 <configuration>
                     <!--推送到私有仓库-->
                     <!-- <imageName>localhost:9000/halower/scbp.eureka-server</imageName> -->
                     <imageName>scbp.eureka-server</imageName>
                     <imageTags>
                         <imageTag>0.0.1</imageTag>
-                        <imageTag>latest</imageTag>
+                        <!--<imageTag>latest</imageTag>-->
                     </imageTags>
                     <!-- 指定Dockerfile所在的路径 -->
                     <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
