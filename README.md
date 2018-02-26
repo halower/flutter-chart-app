@@ -20,7 +20,6 @@
 |--scbp.config-server-git: 配置中心        
 |--scbp.api-gateway : 服务网关
 |--scbp.zipkin-server: 服务追踪 
-|--service-providers：服务提供者
 |--scbp.admin-dashboard-server: 作用等同于 scbp.eureka-server，功能更强大
 |--scbp.service-providers: 服务集合
    |--scbp.api-{服务名}-service: 服务提供者【开发人员介入的工程】 
