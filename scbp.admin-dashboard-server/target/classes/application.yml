@@ -5,6 +5,7 @@ server:
   port: 8000
 
 eureka:
+ # 单机版不注册到Eureka
   client:
     registerWithEureka: false
     fetchRegistry: false

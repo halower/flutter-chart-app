@@ -53,18 +53,19 @@
                 <configuration>
                     <!--推送到私有仓库-->
                     <!-- <imageName>localhost:9000/halower/scbp.eureka-server</imageName> -->
-                    <imageName>halower/scbp.eureka-server</imageName>
+                    <imageName>scbp.eureka-server</imageName>
                     <imageTags>
                         <imageTag>0.0.1</imageTag>
                         <imageTag>latest</imageTag>
                     </imageTags>
+                    <!-- 指定Dockerfile所在的路径 -->
                     <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
                     <forceTags>true</forceTags>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
                             <directory>${project.build.directory}</directory>
-                            <include>${project.build.finalName}</include>
+                            <include>${project.build.finalName}.jar</include>
                         </resource>
                     </resources>
                 </configuration>
