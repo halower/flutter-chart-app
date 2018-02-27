@@ -38,18 +38,51 @@
 ```
 2. 创建bootstrap.yml配置,指定从配置中心获取相关的配置信息
 ```
+server:
+  port: 10002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:xxxx/eureka
 spring:
-  application:
-    name: your application' name
   cloud:
     config:
-      uri: http://localhost: 9003
-      profile: default
-      label: master
-server:
-  port: your port
+      discovery:
+        enabled: true
+        service-id: scbp.config-server
 ```
-3. 现在即可直接通过当前应用访问到所需配置，etc. http://localhost:9005/name
+3. 如何自动刷新配置 (确保已经安装了```RabbitMQ```)
+ - 1.  添加如下依赖
+ ```
+ <dependency>
+   <groupId>org.springframework.cloud</groupId>
+   <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+ </dependency>
+ <dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+ ```
+ - 2. 在bootstrap.yml中添加以下内容:（rabbitmq的默认用户和密码都是guest，而默认端口是5672）
+ ```
+ ## 刷新时，关闭安全验证
+management:
+  security:
+    enabled: false
+## 开启消息跟踪
+spring:
+   cloud:
+     bus:
+       trace:
+         enabled: true
+   rabbitmq:
+     host: localhost
+     port: 5672
+     username: guest 
+     password: guest
+ ```
+ - 3. 添加@RefreshScope注解
+
 ## 二、如何添加接口文档注解
 ```
 @Api：说明该类的作用
