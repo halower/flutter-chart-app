@@ -1,14 +1,18 @@
+server:
+  port: 10001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:xxxx/eureka
 spring:
   application:
-    name: scbp.config-server
-  cloud:
+   name: scbp.config-server
+ cloud:
     config:
       server:
         git:
-          uri: https://github.com/halower/SCBP
-          search-paths: config
-#         username:
-#         password:
-
-server:
-  port: 9003
+          uri: https://gitlab.xxx.com/xxxxx/xxxxx.git     # 配置gitlab/开源中国仓库的地址，注意，此处必须以.git结尾
+          search-paths: /config-repo                     # gitlab/开源中国仓库地址下的相对地址，可以配置多个，用,分割。
+          username: your username                        # gitlab/开源中国仓库的账号
+          password: your password                        # gitlab/开源中国仓库的密码
+          label: master                                  #配置仓库的分支
