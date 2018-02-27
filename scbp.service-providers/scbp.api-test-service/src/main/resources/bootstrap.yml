@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: scbp.api-test-service
+  cloud:
+    config:
+      uri: http://localhost:10001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10000/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2

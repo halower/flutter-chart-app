@@ -1,22 +1,11 @@
 server:
-  port: 9002
-spring:
-  application:
-    name: scbp-api-test-service
-  zipkin:
-    base-url: http://localhost:7000
-  sleuth:
-    sampler:
-      percentage: 1.0
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8000/eureka/
-  instance:
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
+  port: 10002
+#  zipkin:
+#    base-url: http://localhost:7000
+#  sleuth:
+#    sampler:
+#      percentage: 1.0
 logging:
-#  file: ${spring.application.name}.log
   level:
     root: INFO
     org.springframework.web.servlet.DispatcherServlet: DEBUG

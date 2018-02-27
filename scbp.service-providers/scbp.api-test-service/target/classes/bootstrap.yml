@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: didispace
+  cloud:
+    config:
+      uri: http://localhost:10001

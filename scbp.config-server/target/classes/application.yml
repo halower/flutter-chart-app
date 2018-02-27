@@ -1,13 +1,26 @@
+server:
+  port: 10001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka
 spring:
   application:
-    name: scbp.config-server
+   name: scbp.config-server
   cloud:
     config:
       server:
         git:
-          uri: https://gitee.com/BTC2/JCY2018-01.git     # 配置gitlab仓库的地址，注意，此处必须以.git结尾
-          search-paths: /test-config      # gitlab仓库地址下的相对地址，可以配置多个，用,分割。
-          username: chinahalower@gmail.com                                             # gitlab仓库的账号
-          password: Boolean                                             # gitlab仓库的密码
-server:
-  port: 10001
+          force-pull: true
+          uri: https://gitee.com/BTC2/JCY2018-01.git     # 配置gitlab/开源中国仓库的地址，注意，此处必须以.git结尾
+          search-paths: test-config                     # gitlab/开源中国仓库地址下的相对地址，可以配置多个，用,分割。
+          username: chinahalower@gmail.com                        # gitlab/开源中国仓库的账号
+          password: Boolean                        # gitlab/开源中国仓库的密码
+    bus:
+      trace:
+        enabled: true     # 开启cloud bus的跟踪
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
