@@ -15,7 +15,7 @@ public class TestController {
     private DiscoveryClient discoveryClient;
     @Autowired
     private TestFeignClient testFeignClient;
-
+    
     @GetMapping("/ask")
     public String ask() {
         String services = "ask: " + discoveryClient.getServices();

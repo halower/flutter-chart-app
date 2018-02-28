@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: scbp.api-test-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: scbp.config-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10000/eureka/
+management:
+  security:
+    enabled: false

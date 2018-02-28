@@ -4,10 +4,13 @@ spring:
   cloud:
     config:
       uri: http://localhost:10001
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:10000/eureka/
-  instance:
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
+      profile: dev
+server:
+  port: 8881
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:10000/eureka/
+#  instance:
+#    leaseRenewalIntervalInSeconds: 1
+#    leaseExpirationDurationInSeconds: 2
