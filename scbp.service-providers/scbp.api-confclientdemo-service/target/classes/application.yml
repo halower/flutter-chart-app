@@ -1,2 +1,8 @@
 server:
   port: 8888
+spring:
+  zipkin:
+    base-url: http://localhost:10003 # zipkin服务地址
+  sleuth:
+    sampler:
+      percentage: 1.0  #测试时获取所有日志,开发后统一调整概率值

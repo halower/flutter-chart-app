@@ -6,11 +6,11 @@ server:
 eureka:
  # 单机版不注册到Eureka
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
 # 高可用支持
     serviceUrl:
-      defaultZone: http://localhost:10000/eureka
+      defaultZone: http://localhost:9999/eureka
 management:
   security:
     enabled: false
