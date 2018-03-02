@@ -29,58 +29,45 @@
 >> 约定如下文件夹功能：
 >>> apis - RestController 集合, models - 实体集合, dtos - 数据传输对象集合, feigns - feign接口集合， 其它的待定
 ## 一、如何获取配置信息
-1. 引入以下依赖
-```
-<dependency>
-  <groupId>org.springframework.cloud</groupId>
-  <artifactId>spring-cloud-starter-config</artifactId>
-</dependency>
-```
+ 1.  添加如下依赖
+ ```
+  <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+   </dependency>
+ ```
 2. 创建bootstrap.yml配置,指定从配置中心获取相关的配置信息
 ```
-server:
-  port: 10002
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:xxxx/eureka
 spring:
+  application:
+    name: scbp.api-test-service
   cloud:
     config:
       discovery:
         enabled: true
         service-id: scbp.config-server
-```
-3. 如何自动刷新配置 (确保已经安装了```RabbitMQ```)
- - 1.  添加如下依赖
- ```
- <dependency>
-   <groupId>org.springframework.cloud</groupId>
-   <artifactId>spring-cloud-starter-bus-amqp</artifactId>
- </dependency>
- <dependency>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-starter-actuator</artifactId>
-</dependency>
- ```
- - 2. 在bootstrap.yml中添加以下内容:（rabbitmq的默认用户和密码都是guest，而默认端口是5672）
- ```
- ## 刷新时，关闭安全验证
+    bus:
+        trace:
+          enabled: true     # 开启cloud bus的跟踪
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:xxxxx/eureka/
 management:
   security:
     enabled: false
-## 开启消息跟踪
-spring:
-   cloud:
-     bus:
-       trace:
-         enabled: true
-   rabbitmq:
-     host: localhost
-     port: 5672
-     username: guest 
-     password: guest
- ```
+```
  - 3. 添加@RefreshScope注解
 
 ## 二、如何添加接口文档注解
