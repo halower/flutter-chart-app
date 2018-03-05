@@ -1010,3 +1010,113 @@ com.netflix.client.ClientException: Load balancer does not have available server
 2018-03-02 14:34:37.183  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
 2018-03-02 14:34:37.270  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
 2018-03-02 14:34:37.375  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-03-02 14:34:37.673  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-03-02 14:34:37.673  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-03-02 14:34:37.876  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-03-02 14:34:37.876  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-03-02 14:34:38.173  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 14:34:38.376  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-03-02 14:34:38.376  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-03-02 14:34:38.376  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-03-02 14:34:38.376  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-03-02 14:34:38.376  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-03-02 14:34:38.376  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-03-02 14:34:38.376  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-03-02 14:34:38.601  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-03-02 14:34:38.601  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2018-03-02 14:34:38.610  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-03-02 14:34:38.622  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1519972478622 with initial instances count: 2
+2018-03-02 14:34:38.794  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application scbp-api-feignclient-service with eureka with status UP
+2018-03-02 14:34:38.794  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1519972478794, current=UP, previous=STARTING]
+2018-03-02 14:34:38.794  INFO [scbp-api-feignclient-service,,,] 21852 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCBP-API-FEIGNCLIENT-SERVICE/DESKTOP-BF6D1CP:scbp-api-feignclient-service:10005: registering service...
+2018-03-02 14:34:38.856  INFO [scbp-api-feignclient-service,,,] 21852 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCBP-API-FEIGNCLIENT-SERVICE/DESKTOP-BF6D1CP:scbp-api-feignclient-service:10005 - registration status: 204
+2018-03-02 14:34:38.903  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-03-02 14:34:38.903  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-03-02 14:34:38.934  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-03-02 14:34:38.950  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-03-02 14:34:39.184  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 10005 (http)
+2018-03-02 14:34:39.184  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 10005
+2018-03-02 14:34:39.200  INFO [scbp-api-feignclient-service,,,] 21852 --- [main] cn.halower.FeignClientApplication        : Started FeignClientApplication in 21.176 seconds (JVM running for 21.823)
+2018-03-02 14:34:54.161  INFO [scbp-api-feignclient-service,,,] 21852 --- [http-nio-10005-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-02 14:34:54.162  INFO [scbp-api-feignclient-service,,,] 21852 --- [http-nio-10005-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-02 14:34:54.273  INFO [scbp-api-feignclient-service,,,] 21852 --- [http-nio-10005-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 111 ms
+2018-03-02 14:39:38.386  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 14:42:47.850 ERROR [scbp-api-feignclient-service,,,] 21852 --- [DiscoveryClient-2] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) [na:1.8.0_65]
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63) ~[eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2018-03-02 14:43:26.443 ERROR [scbp-api-feignclient-service,,,] 21852 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) [na:1.8.0_65]
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63) ~[eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2018-03-02 14:44:38.396  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 14:49:38.409  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 14:54:38.410  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 14:59:38.426  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:02:48.664 ERROR [scbp-api-feignclient-service,,,] 21852 --- [DiscoveryClient-2] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) [na:1.8.0_65]
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63) ~[eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2018-03-02 15:02:55.177 ERROR [scbp-api-feignclient-service,,,] 21852 --- [DiscoveryClient-2] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) [na:1.8.0_65]
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63) ~[eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2018-03-02 15:03:00.578 ERROR [scbp-api-feignclient-service,,,] 21852 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) [na:1.8.0_65]
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63) ~[eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2018-03-02 15:04:38.429  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:09:38.431  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:14:38.432  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:19:38.434  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:24:38.435  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:29:38.437  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:34:38.439  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:39:38.442  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:44:38.445  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-03-02 15:49:38.447  INFO [scbp-api-feignclient-service,,,] 21852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
