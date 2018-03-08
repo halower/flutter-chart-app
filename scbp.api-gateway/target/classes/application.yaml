@@ -1,28 +1,24 @@
 spring:
   application:
-    name: api-gateway
-
-server:
-  port: 9005
-
+    name: scbp-api-gateway
+  profiles:
+    active: gateway1
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:9010/eureka/
-  instance:
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
-
-# 配置路由
+      defaultZone: http://eurekaserver1:8761/eureka/,http://eurekaserver2:8762/eureka/
 zuul:
   prefix: /api
-#  routes:
-#    account:
-#      path: /account/**
-#      serviceId: scbp.api-account-service
-#    test:
-#      path: /test/**
-#      serviceId: scbp.api-test-service
 ribbon:
   eureka:
     enabled: true
+---
+server:
+  port: 9005
+spring:
+  profiles: gateway1
+---
+server:
+  port: 9006
+spring:
+  profiles: gateway2

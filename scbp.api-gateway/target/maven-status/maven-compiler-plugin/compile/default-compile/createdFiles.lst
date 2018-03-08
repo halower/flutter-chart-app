@@ -1,2 +1,6 @@
-cn\halower\AccessFilter.class
+cn\halower\api\SwaggerController.class
+cn\halower\ZuulConfig.class
+cn\halower\ZuulConfig$1.class
 cn\halower\Application.class
+cn\halower\api\GatewaySwaggerResourcesProvider.class
+cn\halower\SwaggerConfig.class

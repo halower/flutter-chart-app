@@ -1,0 +1,30 @@
+version: "2"
+services:
+  eurekaserver1:
+    hostname: eurekaserver1
+    image: halower/scbp.admin-dashboard-server:latest
+    ports:
+      - "8761:8761"
+    environment:
+      - spring.profiles.active=eurekaserver1
+  eurekaserver2:
+    hostname: eurekaserver2
+    image: halower/scbp.admin-dashboard-server:latest
+    ports:
+      - "8762:8762"
+    environment:
+      - spring.profiles.active=eurekaserver2
+  gateway1:
+    hostname: gateway1
+    image: halower/scbp.api-gateway:latest
+    ports:
+      - "9005:9005"
+    environment:
+      - spring.profiles.active=gateway1
+  gateway2:
+    hostname: gateway2
+    image: halower/scbp.api-gateway:latest
+    ports:
+      - "9006:9006"
+    environment:
+      - spring.profiles.active=gateway2

@@ -1,2 +1,5 @@
-D:\FreeCode\SCBP\scbp.api-gateway\src\main\java\cn\halower\AccessFilter.java
+D:\FreeCode\SCBP\scbp.api-gateway\src\main\java\cn\halower\SwaggerConfig.java
+D:\FreeCode\SCBP\scbp.api-gateway\src\main\java\cn\halower\ZuulConfig.java
+D:\FreeCode\SCBP\scbp.api-gateway\src\main\java\cn\halower\api\GatewaySwaggerResourcesProvider.java
 D:\FreeCode\SCBP\scbp.api-gateway\src\main\java\cn\halower\Application.java
+D:\FreeCode\SCBP\scbp.api-gateway\src\main\java\cn\halower\api\SwaggerController.java
