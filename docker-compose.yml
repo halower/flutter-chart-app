@@ -28,3 +28,17 @@ services:
       - "9006:9006"
     environment:
       - spring.profiles.active=gateway2
+  configserver1:
+    hostname: gateway2
+    image: halower/scbp.config-server:latest
+    ports:
+      - "9001:9001"
+    environment:
+      - spring.profiles.active=configserver1
+  configserver2:
+    hostname: configserver2
+    image: halower/scbp.config-server:latest
+    ports:
+      - "9002:9002"
+    environment:
+      - spring.profiles.active=configserver2

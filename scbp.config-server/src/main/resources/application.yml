@@ -1,8 +1,8 @@
-server:
-  port: 10001
 spring:
   application:
     name: scbp.config-server
+  profiles:
+    active: configserver1
   cloud:
     bus:
       enabled: true
@@ -11,8 +11,8 @@ spring:
         git:
           uri: https://gitee.com/BTC2/JCY2018-01.git     # 配置gitlab/开源中国仓库的地址，注意，此处必须以.git结尾
           search-paths: test-config                     # gitlab/开源中国仓库地址下的相对地址，可以配置多个，用,分割。bus/refresh
-          username: chinahalower@gmail.com                        # gitlab/开源中国仓库的账号
-          password: Boolean                        # gitlab/开源中国仓库的密码
+          username: xxxxxxxxxxxxx                        # gitlab/开源中国仓库的账号
+          password: xxxxx                       # gitlab/开源中国仓库的密码
   rabbitmq:
     host: localhost
     port: 5672
@@ -21,7 +21,17 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:10000/eureka/   ## 注册中心eurka地址
+      defaultZone: http://eurekaserver1:8761/eureka/,http://eurekaserver2:8762/eureka/   ## 注册中心eurka地址
 management:
   security:
      enabled: false
+---
+server:
+  port: 9001
+spring:
+  profiles: configserver1
+---
+server:
+  port: 9002
+spring:
+  profiles: configserver2
