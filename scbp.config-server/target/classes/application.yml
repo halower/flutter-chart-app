@@ -1,8 +1,8 @@
-server:
-  port: 10001
 spring:
   application:
     name: scbp.config-server
+  profiles:
+    active: configserver1
   cloud:
     bus:
       enabled: true
@@ -21,7 +21,17 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:10000/eureka/   ## 注册中心eurka地址
+      defaultZone: http://eurekaserver1:8761/eureka/,http://eurekaserver2:8762/eureka/   ## 注册中心eurka地址
 management:
   security:
      enabled: false
+---
+server:
+  port: 9001
+spring:
+  profiles: configserver1
+---
+server:
+  port: 9002
+spring:
+  profiles: configserver2
