@@ -29,7 +29,7 @@ services:
     environment:
       - spring.profiles.active=gateway2
   configserver1:
-    hostname: gateway2
+    hostname: configserver1
     image: halower/scbp.config-server:latest
     ports:
       - "9001:9001"
@@ -42,3 +42,8 @@ services:
       - "9002:9002"
     environment:
       - spring.profiles.active=configserver2
+  zipkinserver:
+    hostname: zipkinserver
+    image: halower/scbp.zipkin-server:latest
+    ports:
+      - "9003:9003"

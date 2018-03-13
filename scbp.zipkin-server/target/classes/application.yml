@@ -1,11 +1,11 @@
 server:
-  port: 10003
+  port: 9003
 spring:
   datasource:
     schema: classpath:/mysql.sql
-    url: jdbc:mysql://localhost:3306/zipkin?autoReconnect=true&useSSL=true
+    url: jdbc:mysql://47.94.209.49:3306/zipkin?autoReconnect=true&useSSL=true
     username: root
-    password: root
+    password: Boolean
     driver-class-name: com.mysql.jdbc.Driver
     initialize: true
     continue-on-error: true
