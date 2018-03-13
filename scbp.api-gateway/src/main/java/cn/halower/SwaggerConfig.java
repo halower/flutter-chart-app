@@ -17,7 +17,6 @@ public class SwaggerConfig {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo());
-
     }
 
     private ApiInfo apiInfo() {
