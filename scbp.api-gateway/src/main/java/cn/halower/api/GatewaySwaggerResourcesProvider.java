@@ -38,7 +38,7 @@ public class GatewaySwaggerResourcesProvider implements SwaggerResourcesProvider
         List<SwaggerResource> resources = new ArrayList<>();
         List<Route> routes = routeLocator.getRoutes();
         routes.forEach(route -> {
-            if (!route.getId().equals("scbp.config-server")) {
+            if (route.getId().startsWith("scbp.api")) {
               resources.add(swaggerResource(route.getId(), route.getFullPath().replace("**", "v2/api-docs")));
         }});
 

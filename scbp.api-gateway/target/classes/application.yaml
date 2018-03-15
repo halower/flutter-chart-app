@@ -14,7 +14,7 @@ ribbon:
     enabled: true
 ---
 server:
-  port: 9004
+  port: 9205
 spring:
   profiles: gateway1
 ---

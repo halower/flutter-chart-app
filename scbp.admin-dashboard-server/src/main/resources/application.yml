@@ -16,7 +16,7 @@ eureka:
   serviceUrl:
     defaultZone: http://eurekaserver2:8762/eureka
   dashboard:
-    enabled: true
+    enabled: false
 ---
 server:
   port: 8762
@@ -27,4 +27,4 @@ eureka:
   serviceUrl:
     defaultZone: http://eurekaserver1:8761/eureka
   dashboard:
-    enabled: true
+    enabled: false
