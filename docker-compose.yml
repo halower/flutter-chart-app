@@ -1,49 +1,21 @@
 version: "2"
 services:
-  eurekaserver1:
-    hostname: eurekaserver1
+  es1:    
     image: halower/scbp.admin-dashboard-server:latest
+    networks: 
+      - eureka-net
     ports:
       - "8761:8761"
     environment:
-      - spring.profiles.active=eurekaserver1
-  eurekaserver2:
-    hostname: eurekaserver2
+      - spring.profiles.active=es1
+  es2:
     image: halower/scbp.admin-dashboard-server:latest
+    networks: 
+      - eureka-net
     ports:
       - "8762:8762"
     environment:
-      - spring.profiles.active=eurekaserver2
-  gateway1:
-    hostname: gateway1
-    image: halower/scbp.api-gateway:latest
-    ports:
-      - "9005:9005"
-    environment:
-      - spring.profiles.active=gateway1
-  gateway2:
-    hostname: gateway2
-    image: halower/scbp.api-gateway:latest
-    ports:
-      - "9006:9006"
-    environment:
-      - spring.profiles.active=gateway2
-  configserver1:
-    hostname: configserver1
-    image: halower/scbp.config-server:latest
-    ports:
-      - "9001:9001"
-    environment:
-      - spring.profiles.active=configserver1
-  configserver2:
-    hostname: configserver2
-    image: halower/scbp.config-server:latest
-    ports:
-      - "9002:9002"
-    environment:
-      - spring.profiles.active=configserver2
-  zipkinserver:
-    hostname: zipkinserver
-    image: halower/scbp.zipkin-server:latest
-    ports:
-      - "9003:9003"
+      - spring.profiles.active=es2
+networks:
+  eureka-net:
+    driver: bridge

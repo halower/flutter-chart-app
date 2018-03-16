@@ -2,29 +2,32 @@ spring:
   application:
     name: scbp-admin-dashboard-server
   profiles:
-    active: eurekaserver1
+    active: es1
 management:
-  security:
-    enabled: false
+ security:
+   enabled: false
+eureka:
+ dashboard:
+   enabled: false
 ---
+spring:
+  profiles: es1
 server:
   port: 8761
-spring:
-  profiles: eurekaserver1
 eureka:
-# 高可用支持
-  serviceUrl:
-    defaultZone: http://eurekaserver2:8762/eureka
-  dashboard:
-    enabled: false
+  instance:
+    hostname: es1
+  client:
+    serviceUrl:
+      defaultZone: http://es2:8762/eureka/
 ---
+spring:
+  profiles: es2
 server:
   port: 8762
-spring:
-  profiles: eurekaserver2
 eureka:
-# 高可用支持
-  serviceUrl:
-    defaultZone: http://eurekaserver1:8761/eureka
-  dashboard:
-    enabled: false
+  instance:
+    hostname: es2
+  client:
+    serviceUrl:
+      defaultZone: http://es1:8761/eureka/

@@ -1,24 +1,22 @@
 spring:
   application:
     name: scbp-api-gateway
-  profiles:
-    active: gateway1
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eurekaserver1:8761/eureka/,http://eurekaserver2:8762/eureka/
+      defaultZone: http://es1:8761/eureka/,http://es2:8762/eureka/
 zuul:
   prefix: /api
 ribbon:
   eureka:
     enabled: true
 ---
-server:
-  port: 9205
 spring:
-  profiles: gateway1
+  profiles: gw1
+server:
+  port: 9005
 ---
+spring:
+  profiles: gw2
 server:
   port: 9006
-spring:
-  profiles: gateway2
