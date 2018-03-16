@@ -17,29 +17,29 @@ spring:
     username: guest
     password: guest
   profiles:
-    active: sc1
+    active: cs1
 management:
   security:
      enabled: false
 ---
 spring:
-  profiles: sc1
+  profiles: cs1
 server:
   port: 9001
 eureka:
   instance:
-    hostname: sc1
+    hostname: cs1
   client:
     serviceUrl:
       defaultZone: http://es1:8761/eureka/,http://es2:8762/eureka/
 ---
 spring:
-  profiles: sc2
+  profiles: cs2
 server:
   port: 9002
 eureka:
   instance:
-    hostname: sc2
+    hostname: cs2
   client:
     serviceUrl:
       defaultZone: http://es1:8761/eureka/,http://es2:8762/eureka/

@@ -16,6 +16,38 @@ services:
       - "8762:8762"
     environment:
       - spring.profiles.active=es2
+  cs1:
+    image: halower/scbp.config-server:latest
+    networks: 
+      - eureka-net
+    ports:
+      - "9001:9001"
+    environment:
+      - spring.profiles.active=cs1
+  cs2:
+    image: halower/scbp.config-server:latest
+    networks: 
+      - eureka-net
+    ports:
+      - "9002:9002"
+    environment:
+      - spring.profiles.active=cs2 
+  gw1:
+    image: halower/scbp.api-gateway:latest
+    networks: 
+      - eureka-net   
+    ports:
+      - "9005:9005"
+    environment:
+      - spring.profiles.active=gw1
+  gw2:
+    image: halower/scbp.api-gateway:latest
+    networks: 
+      - eureka-net
+    ports:
+      - "9006:9006"
+    environment:
+      - spring.profiles.active=gw2
 networks:
   eureka-net:
     driver: bridge

@@ -13,10 +13,16 @@ ribbon:
 ---
 spring:
   profiles: gw1
+eureka:
+  instance:
+    hostname: gw1
 server:
   port: 9005
 ---
 spring:
   profiles: gw2
+eureka:
+  instance:
+    hostname: gw2
 server:
   port: 9006
