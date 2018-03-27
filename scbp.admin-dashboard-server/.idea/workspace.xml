@@ -2,31 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ddd4626-a125-4025-a319-15691c331ca5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/docker/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/docker/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/docker/scbp.api-gateway-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/docker/scbp.api-gateway-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/scbp.api-gateway-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/scbp.api-gateway-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/scbp.api-gateway-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/scbp.api-gateway-1.0-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/docker/scbp.config-server-git-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../scbp.config-server/target/docker/scbp.config-server-git-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/scbp.config-server-git-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../scbp.config-server/target/scbp.config-server-git-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/scbp.config-server-git-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/../scbp.config-server/target/scbp.config-server-git-1.0-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.zipkin-server/target/scbp.zipkin-server-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/../scbp.zipkin-server/target/scbp.zipkin-server-1.0-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../docker-compose.yml" afterPath="$PROJECT_DIR$/../docker-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/image_info.json" afterPath="$PROJECT_DIR$/target/test-classes/image_info.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.api-gateway/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.api-gateway/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.api-gateway/src/main/resources/application.yaml" afterPath="$PROJECT_DIR$/../scbp.api-gateway/src/main/resources/application.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/application.yaml" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/application.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/test-classes/image_info.json" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/test-classes/image_info.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.config-server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../scbp.config-server/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/../scbp.config-server/target/classes/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../scbp.config-server/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/test-classes/image_info.json" afterPath="$PROJECT_DIR$/../scbp.config-server/target/test-classes/image_info.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.eureka-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.eureka-server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.zipkin-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../scbp.zipkin-server/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.zipkin-server/target/test-classes/image_info.json" afterPath="$PROJECT_DIR$/../scbp.zipkin-server/target/test-classes/image_info.json" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +52,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="45">
+              <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -125,9 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +152,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -638,11 +627,12 @@
       <workItem from="1521165247746" duration="9158000" />
       <workItem from="1521185296634" duration="28000" />
       <workItem from="1521188636120" duration="237000" />
+      <workItem from="1521625678275" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41027000" />
+    <option name="totallyTimeSpent" value="41051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -659,10 +649,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37973812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46191135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46398893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20070876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="725" y="58" width="469" height="923" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20360824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="725" y="58" width="469" height="923" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1092,8 +1082,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="45">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding />
         </state>
       </provider>
