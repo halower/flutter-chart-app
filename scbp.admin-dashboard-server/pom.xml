@@ -16,10 +16,15 @@
     </parent>
 
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>com.github.vanroy</groupId>-->
+            <!--<artifactId>spring-cloud-dashboard</artifactId>-->
+            <!--<version>1.2.0.RELEASE</version>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>com.github.vanroy</groupId>
-            <artifactId>spring-cloud-dashboard</artifactId>
-            <version>1.2.0.RELEASE</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

@@ -4,7 +4,6 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
 
-@AllArgsConstructor
 @Data
 @ApiModel("Demo类")
 public class Demo {
@@ -14,4 +13,9 @@ public class Demo {
     @ApiModelProperty("名称")
     @NonNull
     private String name;
+
+    public Demo(int id, String name) {
+        this.id =id;
+        this.name= name;
+    }
 }

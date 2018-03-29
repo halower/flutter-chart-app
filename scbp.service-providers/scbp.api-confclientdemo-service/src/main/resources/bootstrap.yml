@@ -1,6 +1,6 @@
 spring:
   application:
-    name: scbp.api-test-service
+    name: scbp.api-configclient-service
   cloud:
     config:
       discovery:
@@ -18,7 +18,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:10000/eureka/
+      defaultZone: http://es1:8761/eureka/,http://es2:8762/eureka/
 management:
   security:
     enabled: false

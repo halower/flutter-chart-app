@@ -6,9 +6,6 @@ spring:
 management:
  security:
    enabled: false
-eureka:
- dashboard:
-   enabled: false
 ---
 spring:
   profiles: es1

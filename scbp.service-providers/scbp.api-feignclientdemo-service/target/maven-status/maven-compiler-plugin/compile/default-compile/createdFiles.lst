@@ -1,0 +1,4 @@
+cn\halower\feigns\TestFeignClient.class
+cn\halower\models\Demo.class
+cn\halower\api\TestController.class
+cn\halower\FeignClientApplication.class

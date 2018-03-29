@@ -2,20 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ddd4626-a125-4025-a319-15691c331ca5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/docker/scbp.config-server-git-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../scbp.config-server/target/docker/scbp.config-server-git-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/scbp.config-server-git-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../scbp.config-server/target/scbp.config-server-git-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/scbp.config-server-git-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/../scbp.config-server/target/scbp.config-server-git-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.zipkin-server/target/scbp.zipkin-server-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/../scbp.zipkin-server/target/scbp.zipkin-server-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../docker-compose.yml" afterPath="$PROJECT_DIR$/../docker-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.config-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../scbp.config-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/../scbp.config-server/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../scbp.config-server/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.config-server/target/test-classes/image_info.json" afterPath="$PROJECT_DIR$/../scbp.config-server/target/test-classes/image_info.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.eureka-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.eureka-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.zipkin-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../scbp.zipkin-server/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scbp.zipkin-server/target/test-classes/image_info.json" afterPath="$PROJECT_DIR$/../scbp.zipkin-server/target/test-classes/image_info.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/css/wro.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/fonts/montserrat-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/fonts/montserrat-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/fonts/montserrat-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/fonts/montserrat-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/fonts/varela_round-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/fonts/varela_round-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/fonts/varela_round-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/fonts/varela_round-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/images/404-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/images/homepage-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/images/platform-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/images/platform-spring-xd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/images/spring-logo-eureka-mobile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/images/spring-logo-eureka.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/eureka/js/wro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/eureka/header.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/eureka/lastn.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/eureka/navbar.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/eureka/status.ftl" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vanroy_spring_cloud_dashboard_1_2_0_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_1_5_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_2_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/scbp.admin-dashboard-server.iml" afterPath="$PROJECT_DIR$/scbp.admin-dashboard-server.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/halower/Application.java" afterPath="$PROJECT_DIR$/src/main/java/cn/halower/Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/halower/Application.class" afterPath="$PROJECT_DIR$/target/classes/cn/halower/Application.class" />
+      <change beforePath="$PROJECT_DIR$/target/docker/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/docker/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/scbp.admin-dashboard-server-0.0.1-SNAPSHOT.jar.original" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/image_info.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/.idea/misc.xml" afterPath="$PROJECT_DIR$/../scbp.api-gateway/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.api-gateway/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/src/main/java/cn/halower/ZuulConfig.java" afterPath="$PROJECT_DIR$/../scbp.api-gateway/src/main/java/cn/halower/ZuulConfig.java" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/cn/halower/Application.class" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/cn/halower/Application.class" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/cn/halower/SwaggerConfig.class" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/cn/halower/SwaggerConfig.class" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/cn/halower/ZuulConfig.class" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/cn/halower/ZuulConfig.class" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/cn/halower/api/GatewaySwaggerResourcesProvider.class" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/classes/cn/halower/api/GatewaySwaggerResourcesProvider.class" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/docker/Dockerfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/docker/scbp.api-gateway-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/scbp.api-gateway-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/scbp.api-gateway-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/scbp.api-gateway-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/../scbp.api-gateway/target/scbp.api-gateway-1.0-SNAPSHOT.jar.original" />
+      <change beforePath="$PROJECT_DIR$/../scbp.api-gateway/target/test-classes/image_info.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../scbp.config-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.config-server/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.config-server/scbp.config-server.iml" afterPath="$PROJECT_DIR$/../scbp.config-server/scbp.config-server.iml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.config-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../scbp.config-server/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.config-server/target/test-classes/image_info.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/scbp.api-confclientdemo-service.iml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/scbp.api-confclientdemo-service.iml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/src/main/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/target/classes/application.yml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/target/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-confclientdemo-service/target/classes/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/.idea/misc.xml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/src/main/java/cn/halower/feigns/TestFeignClient.java" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/src/main/java/cn/halower/feigns/TestFeignClient.java" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/target/classes/application.yml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/target/classes/cn/halower/FeignClientApplication.class" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/target/classes/cn/halower/FeignClientApplication.class" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/target/classes/cn/halower/models/Demo.class" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-feignclientdemo-service/target/classes/cn/halower/models/Demo.class" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/.idea/misc.xml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/scbp.api-jpademo-service.iml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/scbp.api-jpademo-service.iml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/src/main/java/cn/halower/apis/DemoController.java" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/src/main/java/cn/halower/apis/DemoController.java" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/src/main/java/cn/halower/models/Demo.java" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/src/main/java/cn/halower/models/Demo.java" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/target/classes/application.yml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/target/classes/cn/halower/Application.class" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/target/classes/cn/halower/Application.class" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/target/classes/cn/halower/apis/DemoController.class" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/target/classes/cn/halower/apis/DemoController.class" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/target/classes/cn/halower/models/Demo.class" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-jpademo-service/target/classes/cn/halower/models/Demo.class" />
+      <change beforePath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-mybatisdemo-service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scbp.service-providers/scbp.api-mybatisdemo-service/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,35 +102,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="280">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lastn.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/eureka/lastn.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wro.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/css/wro.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="6213" column="27" lean-forward="false" selection-start-line="6213" selection-start-column="27" selection-end-line="6213" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="status.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/eureka/status.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
               <folding>
-                <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#thead#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
+      <file leaf-file-name="navbar.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/eureka/navbar.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+            <state relative-caret-position="-2033">
+              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <file leaf-file-name="header.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/eureka/header.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="-339">
+              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-logo-eureka.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/images/spring-logo-eureka.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-logo-eureka-mobile.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/images/spring-logo-eureka-mobile.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -64,6 +183,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>8761</find>
+      <find>mirr</find>
+      <find>General Info一般信息</find>
+      <find>DS</find>
+      <find>Sys</find>
+      <find>navbar</find>
+      <find>a</find>
+      <find>&gt; a</find>
+      <find>hover</find>
+      <find>5fa134</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,12 +205,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/halower/Application.java" />
         <option value="$PROJECT_DIR$/target/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/src/main/docker/Dockerfile" />
+        <option value="C:/InstallSoft/apache-maven-3.5.3/conf/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/halower/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/eureka/navbar.ftl" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/halower/static/eureka/css/wro.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/eureka/lastn.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/eureka/header.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/eureka/status.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/eureka/css/wro.css" />
       </list>
     </option>
   </component>
@@ -92,7 +227,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\InstallSoft\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="536" />
     <option name="y" value="24" />
     <option name="width" value="1936" />
@@ -114,8 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,7 +279,15 @@
               <item name="scbp.admin-dashboard-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scbp.admin-dashboard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="halower" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
@@ -148,22 +296,77 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scbp.admin-dashboard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scbp.admin-dashboard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scbp.admin-dashboard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scbp.admin-dashboard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Codes\SCBP\scbp.admin-dashboard-server\src\main\resources\static\eureka\images" />
+      <recent name="C:\Codes\SCBP\scbp.admin-dashboard-server\src\main\resources" />
+      <recent name="C:\Codes\SCBP\scbp.admin-dashboard-server\src\main\java\cn\halower" />
       <recent name="G:\scbp\scbp.admin-dashboard-server\src\main" />
     </key>
   </component>
@@ -179,12 +382,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.halower.Application" />
-      <module name="eureka" />
-      <envs />
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -199,13 +403,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="scbp.admin-dashboard-server" />
       <envs />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -229,14 +426,6 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -257,18 +446,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.halower.Application" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_131" />
+      <module name="scbp.admin-dashboard-server" />
+      <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -296,6 +487,12 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -579,9 +776,17 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -628,46 +833,52 @@
       <workItem from="1521185296634" duration="28000" />
       <workItem from="1521188636120" duration="237000" />
       <workItem from="1521625678275" duration="24000" />
+      <workItem from="1522121262130" duration="2980000" />
+      <workItem from="1522130144834" duration="147000" />
+      <workItem from="1522131077757" duration="49000" />
+      <workItem from="1522295995249" duration="1912000" />
+      <workItem from="1522308927274" duration="151000" />
+      <workItem from="1522313335793" duration="4979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41051000" />
+    <option name="totallyTimeSpent" value="51269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
-    <editor active="true" />
+    <frame x="-14" y="-14" width="3228" height="1738" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49601063" sideWeight="0.50125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37973812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46398893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20360824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="725" y="58" width="469" height="923" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966277" sideWeight="0.49875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46317962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3362347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="725" y="58" width="469" height="923" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -687,99 +898,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/halower/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scbp.admin-dashboard-server.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/halower/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scbp.admin-dashboard-server.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/halower/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scbp.admin-dashboard-server.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1048,13 +1166,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/halower/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scbp.admin-dashboard-server.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1062,10 +1173,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/InstallSoft/apache-maven-3.5.3/conf/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/js/wro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/halower/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="719">
+          <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
           <folding>
             <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
           </folding>
@@ -1080,13 +1215,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/images/spring-logo-eureka-mobile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="280">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/images/platform-spring-xd.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/images/platform-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/images/homepage-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/images/spring-logo-eureka.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/eureka/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-339">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/eureka/lastn.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/eureka/navbar.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2033">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/eureka/status.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#thead#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/eureka/css/wro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="6213" column="27" lean-forward="false" selection-start-line="6213" selection-start-column="27" selection-end-line="6213" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>scbp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.3.1.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

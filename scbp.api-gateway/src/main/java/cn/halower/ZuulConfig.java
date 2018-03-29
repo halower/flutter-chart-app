@@ -9,7 +9,7 @@ public class ZuulConfig {
         @Bean
         public PatternServiceRouteMapper serviceRouteMapper() {
             return new PatternServiceRouteMapper(
-                    "scbp-api-([^-]+)-service",
+                    "scbp.api-([^-]+)-service",
                     "$1"){
                 @Override
                 public String apply(final String serviceId) {

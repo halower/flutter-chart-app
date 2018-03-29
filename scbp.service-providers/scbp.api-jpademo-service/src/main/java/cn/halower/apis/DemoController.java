@@ -16,7 +16,7 @@ public class DemoController {
       @ApiImplicitParam(paramType = "query", dataType = "int", name = "id", value = "标识", required = true)
     })
     @GetMapping("/demo/{id}")
-   public Demo findDemo(@PathVariable("id") int id) {
-       return new Demo(id, "测试");
+   public Demo findDemo(int id) {
+       return new Demo(id, "测试" + id);
    }
 }
