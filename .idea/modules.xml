@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/scbp.iml" filepath="$PROJECT_DIR$/scbp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-api-gateway/scbp-api-gateway.iml" filepath="$PROJECT_DIR$/scbp-api-gateway/scbp-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-eureka-server/scbp-eureka-server.iml" filepath="$PROJECT_DIR$/scbp-eureka-server/scbp-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-link-tracker/scbp-link-tracker.iml" filepath="$PROJECT_DIR$/scbp-link-tracker/scbp-link-tracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/scbp-monitor-ui.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/scbp-monitor-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-services-monitor/scbp-services-monitor.iml" filepath="$PROJECT_DIR$/scbp-services-monitor/scbp-services-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-build/spring-boot-admin-build.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-build/spring-boot-admin-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-client/spring-boot-admin-client.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-client/spring-boot-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-dependencies/spring-boot-admin-dependencies.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-dependencies/spring-boot-admin-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-consul/spring-boot-admin-sample-consul.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-consul/spring-boot-admin-sample-consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-eureka/spring-boot-admin-sample-eureka.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-eureka/spring-boot-admin-sample-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-hazelcast/spring-boot-admin-sample-hazelcast.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-hazelcast/spring-boot-admin-sample-hazelcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-reactive/spring-boot-admin-sample-reactive.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-reactive/spring-boot-admin-sample-reactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-servlet/spring-boot-admin-sample-servlet.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-servlet/spring-boot-admin-sample-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-war/spring-boot-admin-sample-war.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-war/spring-boot-admin-sample-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-zookeeper/spring-boot-admin-sample-zookeeper.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-zookeeper/spring-boot-admin-sample-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-samples.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-server/spring-boot-admin-server.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-server/spring-boot-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-server-ui/spring-boot-admin-server-ui.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-server-ui/spring-boot-admin-server-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-starter-client/spring-boot-admin-starter-client.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-starter-client/spring-boot-admin-starter-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-starter-server/spring-boot-admin-starter-server.iml" filepath="$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-starter-server/spring-boot-admin-starter-server.iml" />
+    </modules>
+  </component>
+</project>

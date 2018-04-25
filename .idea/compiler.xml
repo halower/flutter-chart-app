@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="scbp-api-gateway" />
+        <module name="scbp-eureka-server" />
+        <module name="scbp-link-tracker" />
+        <module name="scbp-services-monitor" />
+        <module name="spring-boot-admin-client" />
+        <module name="spring-boot-admin-sample-consul" />
+        <module name="spring-boot-admin-sample-eureka" />
+        <module name="spring-boot-admin-sample-hazelcast" />
+        <module name="spring-boot-admin-sample-reactive" />
+        <module name="spring-boot-admin-sample-servlet" />
+        <module name="spring-boot-admin-sample-war" />
+        <module name="spring-boot-admin-sample-zookeeper" />
+        <module name="spring-boot-admin-server" />
+        <module name="spring-boot-admin-server-ui" />
+        <module name="spring-boot-admin-starter-client" />
+        <module name="spring-boot-admin-starter-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="scbp" target="1.8" />
+      <module name="scbp-api-gateway" target="1.8" />
+      <module name="scbp-eureka-server" target="1.8" />
+      <module name="scbp-link-tracker" target="1.8" />
+      <module name="scbp-monitor-ui" target="1.8" />
+      <module name="scbp-services-monitor" target="1.5" />
+      <module name="spring-boot-admin" target="1.8" />
+      <module name="spring-boot-admin-build" target="1.8" />
+      <module name="spring-boot-admin-client" target="1.8" />
+      <module name="spring-boot-admin-dependencies" target="1.8" />
+      <module name="spring-boot-admin-docs" target="1.8" />
+      <module name="spring-boot-admin-sample" target="1.8" />
+      <module name="spring-boot-admin-sample-consul" target="1.8" />
+      <module name="spring-boot-admin-sample-eureka" target="1.8" />
+      <module name="spring-boot-admin-sample-hazelcast" target="1.8" />
+      <module name="spring-boot-admin-sample-reactive" target="1.8" />
+      <module name="spring-boot-admin-sample-servlet" target="1.8" />
+      <module name="spring-boot-admin-sample-war" target="1.8" />
+      <module name="spring-boot-admin-sample-zookeeper" target="1.8" />
+      <module name="spring-boot-admin-samples" target="1.8" />
+      <module name="spring-boot-admin-server" target="1.8" />
+      <module name="spring-boot-admin-server-ui" target="1.8" />
+      <module name="spring-boot-admin-server-ui-activiti" target="1.8" />
+      <module name="spring-boot-admin-server-ui-hystrix" target="1.8" />
+      <module name="spring-boot-admin-server-ui-login" target="1.8" />
+      <module name="spring-boot-admin-server-ui-turbine" target="1.8" />
+      <module name="spring-boot-admin-starter-client" target="1.8" />
+      <module name="spring-boot-admin-starter-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

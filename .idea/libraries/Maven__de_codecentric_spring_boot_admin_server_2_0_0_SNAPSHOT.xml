@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: de.codecentric:spring-boot-admin-server:2.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-server/2.0.0-SNAPSHOT/spring-boot-admin-server-2.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/scbp-api-admin-ui/spring-boot-admin-server/spring-boot-admin-server-2.0.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-server/2.0.0-SNAPSHOT/spring-boot-admin-server-2.0.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/scbp-api-admin-ui/spring-boot-admin-server/spring-boot-admin-server-2.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-server/2.0.0-SNAPSHOT/spring-boot-admin-server-2.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

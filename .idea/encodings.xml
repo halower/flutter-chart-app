@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-link-tracker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-build" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-docs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-consul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-hazelcast" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-reactive" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-servlet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-war" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-server-ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-starter-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-starter-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbp-services-monitor" charset="UTF-8" />
+  </component>
+</project>
