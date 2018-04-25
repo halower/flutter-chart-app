@@ -6,53 +6,53 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="scbp-api-gateway" />
-        <module name="scbp-eureka-server" />
-        <module name="scbp-link-tracker" />
-        <module name="scbp-services-monitor" />
-        <module name="spring-boot-admin-client" />
-        <module name="spring-boot-admin-sample-consul" />
-        <module name="spring-boot-admin-sample-eureka" />
-        <module name="spring-boot-admin-sample-hazelcast" />
-        <module name="spring-boot-admin-sample-reactive" />
-        <module name="spring-boot-admin-sample-servlet" />
-        <module name="spring-boot-admin-sample-war" />
-        <module name="spring-boot-admin-sample-zookeeper" />
-        <module name="spring-boot-admin-server" />
-        <module name="spring-boot-admin-server-ui" />
-        <module name="spring-boot-admin-starter-client" />
-        <module name="spring-boot-admin-starter-server" />
+        <module name="apollo-adminservice" />
+        <module name="apollo-biz" />
+        <module name="apollo-client" />
+        <module name="apollo-common" />
+        <module name="apollo-configservice" />
+        <module name="apollo-core" />
+        <module name="apollo-portal" />
+        <module name="scbp-demo-configclient" />
+        <module name="scbp-monitor-dashboard" />
+        <module name="scbp-registry-center" />
+        <module name="scbp-service-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="scbp" target="1.8" />
-      <module name="scbp-api-gateway" target="1.8" />
-      <module name="scbp-eureka-server" target="1.8" />
-      <module name="scbp-link-tracker" target="1.8" />
-      <module name="scbp-monitor-ui" target="1.8" />
-      <module name="scbp-services-monitor" target="1.5" />
-      <module name="spring-boot-admin" target="1.8" />
-      <module name="spring-boot-admin-build" target="1.8" />
-      <module name="spring-boot-admin-client" target="1.8" />
-      <module name="spring-boot-admin-dependencies" target="1.8" />
-      <module name="spring-boot-admin-docs" target="1.8" />
-      <module name="spring-boot-admin-sample" target="1.8" />
-      <module name="spring-boot-admin-sample-consul" target="1.8" />
-      <module name="spring-boot-admin-sample-eureka" target="1.8" />
-      <module name="spring-boot-admin-sample-hazelcast" target="1.8" />
-      <module name="spring-boot-admin-sample-reactive" target="1.8" />
-      <module name="spring-boot-admin-sample-servlet" target="1.8" />
-      <module name="spring-boot-admin-sample-war" target="1.8" />
-      <module name="spring-boot-admin-sample-zookeeper" target="1.8" />
-      <module name="spring-boot-admin-samples" target="1.8" />
-      <module name="spring-boot-admin-server" target="1.8" />
-      <module name="spring-boot-admin-server-ui" target="1.8" />
-      <module name="spring-boot-admin-server-ui-activiti" target="1.8" />
-      <module name="spring-boot-admin-server-ui-hystrix" target="1.8" />
-      <module name="spring-boot-admin-server-ui-login" target="1.8" />
-      <module name="spring-boot-admin-server-ui-turbine" target="1.8" />
-      <module name="spring-boot-admin-starter-client" target="1.8" />
-      <module name="spring-boot-admin-starter-server" target="1.8" />
+      <module name="benchmarks" target="1.8" />
+      <module name="scbp-config-center" target="1.8" />
+      <module name="scbp-demo" target="1.5" />
+      <module name="scbp-tracing-dashboard" target="1.8" />
+      <module name="zipkin (1) (io.zipkin.java)" target="1.8" />
+      <module name="zipkin (2) (io.zipkin.zipkin2)" target="1.8" />
+      <module name="zipkin-autoconfigure" target="1.8" />
+      <module name="zipkin-autoconfigure-collector-kafka" target="1.8" />
+      <module name="zipkin-autoconfigure-collector-kafka10" target="1.8" />
+      <module name="zipkin-autoconfigure-collector-rabbitmq" target="1.8" />
+      <module name="zipkin-autoconfigure-collector-scribe" target="1.8" />
+      <module name="zipkin-autoconfigure-metrics-prometheus" target="1.8" />
+      <module name="zipkin-autoconfigure-storage-cassandra" target="1.8" />
+      <module name="zipkin-autoconfigure-storage-cassandra3" target="1.8" />
+      <module name="zipkin-autoconfigure-storage-elasticsearch-aws" target="1.8" />
+      <module name="zipkin-autoconfigure-storage-elasticsearch-http" target="1.8" />
+      <module name="zipkin-autoconfigure-storage-mysql" target="1.8" />
+      <module name="zipkin-autoconfigure-ui" target="1.8" />
+      <module name="zipkin-collector" target="1.8" />
+      <module name="zipkin-collector-kafka" target="1.8" />
+      <module name="zipkin-collector-kafka10" target="1.8" />
+      <module name="zipkin-collector-rabbitmq" target="1.8" />
+      <module name="zipkin-collector-scribe" target="1.8" />
+      <module name="zipkin-guava" target="1.8" />
+      <module name="zipkin-junit" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
+      <module name="zipkin-storage" target="1.8" />
+      <module name="zipkin-storage-cassandra (1) (io.zipkin.java)" target="1.8" />
+      <module name="zipkin-storage-cassandra (2) (io.zipkin.zipkin2)" target="1.8" />
+      <module name="zipkin-storage-elasticsearch" target="1.8" />
+      <module name="zipkin-storage-elasticsearch-http" target="1.8" />
+      <module name="zipkin-storage-mysql" target="1.8" />
+      <module name="zipkin-ui" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

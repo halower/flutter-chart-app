@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.halower.scbp</groupId>
+    <artifactId>scbp-bootstrap</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-Alpha</version>
+    <modules>
+        <!--  注册中心  -->
+        <module>scbp-registry-center</module>
+        <module>scbp-config-center</module>
+        <module>scbp-config-center</module>
+        <module>scbp-service-gateway</module>
+        <module>scbp-monitor-dashboard</module>
+        <module>scbp-demo</module>
+        <module>scbp-demo</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-platform-version>Brussels-SR6</spring-platform-version>
+        <spring-cloud-platform-version>Edgware.RELEASE</spring-cloud-platform-version>
+        <spring-boot-maven-plugin-version>1.5.9.RELEASE</spring-boot-maven-plugin-version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.spring.platform</groupId>
+                <artifactId>platform-bom</artifactId>
+                <version>${spring-platform-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud-platform-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

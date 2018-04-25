@@ -1,0 +1,7 @@
+com\halower\scbp\gateway\ScbpApiGatewayApplication.class
+com\halower\scbp\gateway\filters\GateWayCorsConfig.class
+com\halower\scbp\gateway\config\ZuulConfig.class
+com\halower\scbp\gateway\config\GatewaySwaggerResourcesProvider.class
+com\halower\scbp\gateway\config\SwaggerController.class
+com\halower\scbp\gateway\config\ZuulConfig$1.class
+com\halower\scbp\gateway\config\SwaggerConfig.class

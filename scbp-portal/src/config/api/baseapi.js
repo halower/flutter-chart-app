@@ -1,0 +1,87 @@
+import axios from 'axios'
+import envConf from '@/config/env/env.export'
+import * as request from '@/config/api/api.conf'
+
+export default class BaseApiController {
+  constructor () {
+    axios.defaults.timeout = 5000
+    axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8'
+    axios.defaults.baseURL = envConf.REMOTE_ADDR
+    this._req = request
+    Object.keys(this._req).forEach(key => this._proxy(key))
+  }
+
+  _proxy (key) {
+    let _ = this
+    Object.defineProperty(_, key, {
+      configurable: false,
+      enumerable: true,
+      get () {
+        return _._req[key]
+      },
+      set (newVal) {
+        _.data[key] = newVal
+      }
+    })
+  }
+
+  get (url, params) {
+    return new Promise((resolve, reject) => {
+      axios.get(url, {params})
+        .then(response => {
+          resolve(response.data)
+        }, err => {
+          reject(err)
+        })
+        .catch((error) => {
+          reject(error)
+        })
+    })
+  }
+
+  post (url, params) {
+    return new Promise((resolve, reject) => {
+      axios.post(url, params)
+        .then(response => {
+          resolve(response.data)
+        }, err => {
+          reject(err)
+        })
+        .catch((error) => {
+          reject(error)
+        })
+    })
+  }
+
+  delete (url, params) {
+    return new Promise((resolve, reject) => {
+      axios.delete(url, {params: params})
+        .then(response => {
+          resolve(response.data)
+        }, err => {
+          reject(err)
+        })
+        .catch((error) => {
+          reject(error)
+        })
+    })
+  }
+
+  put (url, params) {
+    return new Promise((resolve, reject) => {
+      axios.put(url, params)
+        .then(response => {
+          resolve(response.data)
+        }, err => {
+          reject(err)
+        })
+        .catch((error) => {
+          reject(error)
+        })
+    })
+  }
+
+  all (promises) {
+    return Promise.all(promises)
+  }
+}

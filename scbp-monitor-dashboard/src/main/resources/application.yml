@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: scbp-monitor-dashboard
+  cloud:
+    config:
+      enabled: false
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9001/eureka/,http://127.0.0.1:9002/eureka/
+
+management.security.enabled: false
+server:
+  port: 9006
