@@ -1,20 +1,23 @@
 package com.halower.scbp.gateway.config;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.cloud.netflix.zuul.filters.discovery.PatternServiceRouteMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ZuulConfig {
+    private final Logger log = LoggerFactory.getLogger(ZuulConfig.class);
         @Bean
         public PatternServiceRouteMapper serviceRouteMapper() {
             return new PatternServiceRouteMapper(
-                    "scbp-([^-]+)-service",
-                    "halower-$1"){
+                    "([^-]+)-service",
+                    "$1"){
                 @Override
                 public String apply(final String serviceId) {
                     String route =  super.apply(serviceId);
-                    System.out.println(serviceId + " -> " +route);
+                    log.info(serviceId + " -> " +route);
                     return route;
                 }
             };

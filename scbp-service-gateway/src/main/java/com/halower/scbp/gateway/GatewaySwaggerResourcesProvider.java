@@ -1,4 +1,4 @@
-package com.halower.scbp.gateway.config;
+package com.halower.scbp.gateway;
 
 
 import java.util.ArrayList;
@@ -6,7 +6,6 @@ import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.netflix.zuul.filters.Route;
 import org.springframework.cloud.netflix.zuul.filters.RouteLocator;
 import org.springframework.context.annotation.Primary;
@@ -35,9 +34,8 @@ public class GatewaySwaggerResourcesProvider implements SwaggerResourcesProvider
         List<SwaggerResource> resources = new ArrayList<>();
         List<Route> routes = routeLocator.getRoutes();
         routes.forEach(route -> {
-            if (route.getId().startsWith("halower-")) {
-              resources.add(swaggerResource(route.getId().replace("halower-", ""), route.getFullPath().replace("**", "v2/api-docs")));
-        }});
+            resources.add(swaggerResource(route.getId(), route.getFullPath().replace("**", "v2/api-docs")));
+        });
 
         return resources;
     }

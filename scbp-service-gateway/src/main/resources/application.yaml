@@ -1,5 +1,5 @@
 server:
-  port: 9004
+  port: 2211
 spring:
   application:
     name: scbp-api-gateway
@@ -25,6 +25,7 @@ zuul:
   host:
     connect-timeout-millis: 10000
     socket-timeout-millis: 60000
+  ignored-services: scbp-registry-center,apollo-configservice,apollo-adminservice,scbp-monitor-dashboard,scbp-api-gateway
 management:
   security:
     enabled: false

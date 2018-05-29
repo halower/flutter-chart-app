@@ -24,7 +24,7 @@ public class SwaggerConfig {
                 .title("SCBP接口文档")
                 .description("SCBP接口文档说明")
                 .termsOfServiceUrl("http://localhost:9004")
-                .contact(new Contact("halower", "", "youzisoft@qq.com"))
+                .contact(new Contact("scbp", "", "youzisoft@qq.com"))
                 .version("1.0")
                 .build();
     }
