@@ -1,0 +1,16 @@
+rootProject.name = 'apollo'
+include ':apollo-core'
+include ':apollo-client'
+include ':apollo-common'
+include ':apollo-biz'
+include ':apollo-configservice'
+include ':apollo-adminservice'
+include ':apollo-portal'
+
+project(':apollo-core').projectDir = "$rootDir/apollo-core" as File
+project(':apollo-client').projectDir = "$rootDir/apollo-client" as File
+project(':apollo-common').projectDir = "$rootDir/apollo-common" as File
+project(':apollo-biz').projectDir = "$rootDir/apollo-biz" as File
+project(':apollo-configservice').projectDir = "$rootDir/apollo-configservice" as File
+project(':apollo-adminservice').projectDir = "$rootDir/apollo-adminservice" as File
+project(':apollo-portal').projectDir = "$rootDir/apollo-portal" as File

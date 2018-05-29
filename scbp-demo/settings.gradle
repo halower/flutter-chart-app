@@ -1,0 +1,4 @@
+rootProject.name = 'scbp-demo'
+include ':scbp-demo-configclient'
+
+project(':scbp-demo-configclient').projectDir = "$rootDir/scbp-demo-configclient" as File

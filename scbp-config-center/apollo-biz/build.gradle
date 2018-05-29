@@ -1,0 +1,7 @@
+
+description = 'Apollo Biz'
+dependencies {
+  compile project(':apollo-common')
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version:'1.2.3.RELEASE'
+    testCompile group: 'com.h2database', name: 'h2', version:'1.4.191'
+}

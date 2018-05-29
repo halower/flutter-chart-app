@@ -1,0 +1,8 @@
+
+description = ''
+dependencies {
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version:'1.4.0.RELEASE'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version:'2.6.1'
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version:'2.6.1'
+    compile group: 'com.ctrip.framework.apollo', name: 'apollo-client', version:'0.10.0-SNAPSHOT'
+}
