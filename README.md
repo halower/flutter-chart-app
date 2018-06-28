@@ -1,2 +1,0 @@
-# SCBP
-springClound boilerplate
