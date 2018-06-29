@@ -1,0 +1,128 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+### Gradle template
+.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+### Kotlin template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#ideal
+.idea
+将删除 .idea/modules/zinpkin-admin-service/
+将删除 .idea/modules/zinpkin_admin_service/
+将删除 build/kotlin/
+将删除 logs/
+将删除 scbp-admin-server/build/resources/main/templates/
+将删除 scbp-admin-server/out/production/classes/META-INF/
+将删除 scbp-admin-server/out/production/classes/com/
+将删除 scbp-admin-server/out/production/resources/
+将删除 scbp-admin-server/src/main/java/
+将删除 scbp-admin-server/src/main/resources/templates/
+将删除 scbp-admin-server/src/test/
+将删除 scbp-config-server/src/
+将删除 scbp-config-server/xxl-conf-admin/build/tmp/compileJava/
+将删除 scbp-config-server/xxl-conf-admin/target/generated-sources/
+将删除 scbp-config-server/xxl-conf-admin/target/generated-test-sources/
+将删除 scbp-config-server/xxl-conf-core/build/tmp/compileJava/
+将删除 scbp-config-server/xxl-conf-core/target/generated-sources/
+将删除 scbp-core/build/classes/java/main/cn/halower/scbp/core/anotations/
+将删除 scbp-core/build/tmp/compileJava/
+将删除 scbp-core/src/main/resources/
+将删除 scbp-core/src/test/
+将删除 scbp-demos/.idea/modules/-1420046177/
+将删除 scbp-demos/.idea/modules/1006517387/
+将删除 scbp-demos/.idea/modules/1042638146/
+将删除 scbp-demos/.idea/modules/1541665432/
+将删除 scbp-demos/.idea/modules/1662719998/
+将删除 scbp-demos/.idea/modules/1715034761/
+将删除 scbp-demos/.idea/modules/698460384/
+将删除 scbp-demos/.idea/modules/942201519/
+将删除 scbp-demos/consumelog-service/src/test/
+将删除 scbp-demos/zipkin-actuator-service/src/test/
+将删除 scbp-eureka-server/build/resources/main/static/
+将删除 scbp-eureka-server/out/production/resources/
+将删除 scbp-eureka-server/src/main/java/
+将删除 scbp-eureka-server/src/main/resources/static/
+将删除 scbp-eureka-server/src/test/
+将删除 scbp-gateway-server/src/main/java/
+将删除 scbp-gateway-server/src/test/
+将删除 scbp-infrastructure-services/.idea/modules/-1420046177/
+将删除 scbp-infrastructure-services/.idea/modules/1006517387/
+将删除 scbp-infrastructure-services/.idea/modules/1042638146/
+将删除 scbp-infrastructure-services/.idea/modules/1541665432/
+将删除 scbp-infrastructure-services/.idea/modules/698460384/
+将删除 scbp-infrastructure-services/.idea/modules/942201519/
+将删除 scbp-infrastructure-services/.idea/modules/log.core/
+将删除 scbp-infrastructure-services/log-service/out/production/classes/generated/
+将删除 scbp-infrastructure-services/log-service/src/test/
+将删除 scbp-zipkin-server/src/test/

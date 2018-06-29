@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="spring-boot-admin-sample-war:war">
-    <output-path>$PROJECT_DIR$/scbp-monitor-ui/spring-boot-admin-samples/spring-boot-admin-sample-war/target</output-path>
-    <root id="archive" name="spring-boot-admin-sample-war.war">
-      <element id="artifact" artifact-name="spring-boot-admin-sample-war:war exploded" />
-    </root>
-  </artifact>
-</component>
