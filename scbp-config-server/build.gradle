@@ -1,0 +1,19 @@
+allprojects  {
+  apply plugin: 'maven'
+
+  group = 'com.xuxueli'
+  version = '1.5.1-SNAPSHOT'
+}
+
+subprojects {
+  apply plugin: 'java'
+  sourceCompatibility = 1.8
+  targetCompatibility = 1.8
+
+  
+  repositories {
+    mavenLocal()
+    
+    maven { url "http://repo.maven.apache.org/maven2" }
+  }
+}

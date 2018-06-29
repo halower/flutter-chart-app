@@ -1,0 +1,3 @@
+rootProject.name = 'xxl-conf'
+include 'xxl-conf-core'
+include 'xxl-conf-admin'

@@ -1,0 +1,3 @@
+rootProject.name = 'scbp-infrastructure-services'
+include 'log-service'
+

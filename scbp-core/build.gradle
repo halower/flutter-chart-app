@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+group 'cn.halower'
+version '0.0.7'
+
+sourceCompatibility = 1.8
+
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.projectlombok:lombok:1.18.0'
+    compile group: 'org.aspectj', name: 'aspectjrt', version: '1.9.1'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+    compile("com.alibaba:fastjson:1.2.47")
+}
+
+ext {
+    mavanUrl = "http://localhost:8001/repository/maven-releases/"
+    username = "admin"
+    password = "admin123"
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "${mavanUrl}") {
+                authentication(userName: "${username}", password: "${password}")
+            }
+        }
+    }
+}

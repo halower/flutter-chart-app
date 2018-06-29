@@ -1,0 +1,4 @@
+rootProject.name = 'scbp-demos'
+include 'consumelog-service'
+include 'zipkin-actuator-service'
+

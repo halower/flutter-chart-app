@@ -1,0 +1,8 @@
+
+description = 'xxl-conf-core'
+dependencies {
+    compile group: 'org.apache.zookeeper', name: 'zookeeper', version:'3.4.12'
+    compile group: 'org.ehcache', name: 'ehcache', version:'3.4.0'
+    compile group: 'org.slf4j', name: 'slf4j-api', version:'1.7.25'
+    compile group: 'org.springframework', name: 'spring-context', version:'4.3.18.RELEASE'
+}
