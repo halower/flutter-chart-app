@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'cn.halower'
-version '0.0.7'
+version '0.0.8.1'
 
 sourceCompatibility = 1.8
 
@@ -20,6 +20,7 @@ dependencies {
     compile 'org.projectlombok:lombok:1.18.0'
     compile group: 'org.aspectj', name: 'aspectjrt', version: '1.9.1'
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+    compile group: 'com.google.guava', name: 'guava', version: '23.0'
     compile("com.alibaba:fastjson:1.2.47")
 }
 

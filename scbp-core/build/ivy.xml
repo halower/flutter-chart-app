@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-  <info organisation="cn.halower" module="scbp-core" revision="0.0.7" status="integration" publication="20180628162800"/>
+  <info organisation="cn.halower" module="scbp-core" revision="0.0.8.1" status="integration" publication="20180629165451"/>
   <configurations>
     <conf name="annotationProcessor" visibility="private"/>
     <conf name="apiElements" visibility="private" extends="runtime"/>
@@ -30,6 +30,7 @@
     <dependency org="org.projectlombok" name="lombok" rev="1.18.0" conf="compile-&gt;default"/>
     <dependency org="org.aspectj" name="aspectjrt" rev="1.9.1" conf="compile-&gt;default"/>
     <dependency org="org.apache.commons" name="commons-lang3" rev="3.7" conf="compile-&gt;default"/>
+    <dependency org="com.google.guava" name="guava" rev="23.0" conf="compile-&gt;default"/>
     <dependency org="com.alibaba" name="fastjson" rev="1.2.47" conf="compile-&gt;default"/>
   </dependencies>
 </ivy-module>
