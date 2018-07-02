@@ -4,5 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 public interface EventData extends Serializable {
-    Date eventTime();
+    default Date eventTime () {
+        return new Date();
+    };
 }

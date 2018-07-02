@@ -1,4 +1,4 @@
-package cn.halower.scbp.core.dtos;
+package cn.halower.scbp.core.entities;
 
 import lombok.Data;
 

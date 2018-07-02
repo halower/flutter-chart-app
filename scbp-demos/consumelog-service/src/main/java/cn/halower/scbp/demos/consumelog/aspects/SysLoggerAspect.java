@@ -17,9 +17,6 @@ public class SysLoggerAspect {
 
    @Autowired
    private LoggerService loggerService;
-
-
-
     @Pointcut("@annotation(cn.halower.scbp.core.annotations.ScbpLogger)")
     public void loggerPointCut() {
     }

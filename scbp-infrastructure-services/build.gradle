@@ -21,6 +21,7 @@ subprojects {
         mavenLocal()
         mavenCentral()
         maven { url "https://repo.spring.io/milestone" }
+        maven {url "http://localhost:8001/repository/maven-releases/"}
     }
 
 }

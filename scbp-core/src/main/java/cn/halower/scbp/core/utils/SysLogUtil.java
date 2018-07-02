@@ -1,7 +1,7 @@
 package cn.halower.scbp.core.utils;
 
 import cn.halower.scbp.core.annotations.ScbpLogger;
-import cn.halower.scbp.core.dtos.SysLog;
+import cn.halower.scbp.core.entities.SysLog;
 import com.alibaba.fastjson.JSON;
 import lombok.var;
 import org.apache.commons.lang3.StringUtils;
