@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class ExepctionHandle {
     @ExceptionHandler(ScbpException.class)
     public ResponseEntity<EntityDto> handleException(Exception e) {
-        var res = new EntityDto();
-        var ex = (ScbpException) e;
+        EntityDto res = new EntityDto();
+        ScbpException ex = (ScbpException) e;
         res.setCode(ex.getErrorCode().getCode());
         res.setMsg(ex.getErrorCode().getMsg());
         return new ResponseEntity(res, HttpStatus.OK);

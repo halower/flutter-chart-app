@@ -1,10 +1,10 @@
 package cn.halower.infrastructure.user.service;
 
+import cn.halower.infrastructure.user.repository.UserRepository;
 import cn.halower.infrastructure.user.clients.AuthServiceClient;
 import cn.halower.infrastructure.user.domain.JWT;
 import cn.halower.infrastructure.user.domain.User;
-import cn.halower.infrastructure.user.dots.LoginDto;
-import cn.halower.infrastructure.user.repository.UserRepository;
+import cn.halower.infrastructure.user.dots.LoginOutputDto;
 import cn.halower.infrastructure.user.util.PwdEncoderUtil;
 import cn.halower.scbp.core.consts.ErrorCode;
 import cn.halower.scbp.core.dtos.EntityDto;
@@ -28,7 +28,7 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public EntityDto<LoginDto> login(String username, String password) {
+    public EntityDto<LoginOutputDto> login(String username, String password) {
         var user = userRepository.findUserByUsername(username);
         if (null == user) {
             throw new ScbpException(ErrorCode.FAIL, "未找到该用户");
@@ -36,13 +36,13 @@ public class UserService {
         if (!PwdEncoderUtil.matches(password, user.getPassword())){
             throw new ScbpException(ErrorCode.FAIL, "密码错误");
         }
-        //demo /p@55w0rd
-        JWT jwt = clinet.getToken("Basic dWFhLXNlcnZpY2U6MTIzNDU2", "password", username, password);
+
+        JWT jwt = clinet.getToken("Basic dXNlci1zZXJ2aWNlOjEyMzQ1Ng==", "password", username, password);
         // 获得用户菜单
-        if(null==jwt){
+        if(jwt==null){
             throw new ScbpException(ErrorCode.GET_TOKEN_FAIL);
         }
-        var loginDTO=new LoginDto();
+        var loginDTO=new LoginOutputDto();
         loginDTO.setUser(user);
         loginDTO.setToken(jwt.getAccess_token());
         return EntityDto.onSuccess(loginDTO);

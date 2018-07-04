@@ -1,4 +1,5 @@
 rootProject.name = 'scbp-infrastructure-services'
 include 'log-service'
-include 'uaa-service'
 include 'user-serive'
+include 'uaa-service'
+

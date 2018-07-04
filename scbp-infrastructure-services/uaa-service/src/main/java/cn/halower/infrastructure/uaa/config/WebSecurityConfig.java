@@ -1,6 +1,6 @@
 package cn.halower.infrastructure.uaa.config;
 
-import cn.halower.infrastructure.uaa.service.UserInfoService;
+import cn.halower.infrastructure.uaa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,11 +12,12 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import javax.servlet.http.HttpServletResponse;
 
-@Configuration
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-    @Autowired
-    private UserInfoService userInfoService;
+/**
+ * Created by fangzhipeng on 2017/5/27.
+ */
 
+@Configuration
+class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     @Bean
@@ -25,24 +26,23 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Override
-    @Bean
-    protected AuthenticationManager authenticationManager() throws Exception {
-        return super.authenticationManager();
-    }
-
-    @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable().exceptionHandling().authenticationEntryPoint((req, res, ex) -> res.sendError(HttpServletResponse.SC_UNAUTHORIZED))
-                .and()
+        http
+            .csrf().disable()
+                .exceptionHandling()
+                .authenticationEntryPoint((request, response, authException) -> response.sendError(HttpServletResponse.SC_UNAUTHORIZED))
+            .and()
                 .authorizeRequests()
                 .antMatchers("/**").authenticated()
-                .and()
+            .and()
                 .httpBasic();
     }
 
+    @Autowired
+    UserService userServiceDetail;
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(userInfoService)
+        auth.userDetailsService(userServiceDetail)
                 .passwordEncoder(new BCryptPasswordEncoder());
     }
 }

@@ -1,4 +1,4 @@
-package cn.halower.infrastructure.log.repository;
+package cn.halower.infrastructure.uaa.log.repository;
 
 import cn.halower.infrastructure.log.entitys.SysLog;
 import org.springframework.data.jpa.repository.JpaRepository;

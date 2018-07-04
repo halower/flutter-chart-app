@@ -1,4 +1,4 @@
-package cn.halower.infrastructure.log.rabbitmq;
+package cn.halower.infrastructure.uaa.log.rabbitmq;
 
 
 import lombok.var;

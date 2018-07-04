@@ -1,4 +1,4 @@
-package cn.halower.infrastructure.log.entitys;
+package cn.halower.infrastructure.uaa.log.entitys;
 
 import lombok.Data;
 

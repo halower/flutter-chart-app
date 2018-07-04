@@ -1,5 +1,6 @@
 package cn.halower.infrastructure.user.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.*;

@@ -15,19 +15,21 @@ import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenCo
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 import org.springframework.security.oauth2.provider.token.store.KeyStoreKeyFactory;
 
-
+/**
+ * Created by fangzhipeng on 2017/5/27.
+ */
 @Configuration
 @EnableAuthorizationServer
 public class OAuth2Config extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()
-                .withClient("infrastructure-service")
+                .withClient("user-service")
                 .secret("123456")
                 .scopes("service")
                 .autoApprove(true)
-                .authorizedGrantTypes("implicit", "refresh_token", "password", "authorization_code")
-                .accessTokenValiditySeconds(24 * 3600);
+                .authorizedGrantTypes("implicit","refresh_token", "password", "authorization_code")
+                .accessTokenValiditySeconds(12*300);//5min过期
     }
 
     @Override
@@ -46,9 +48,9 @@ public class OAuth2Config extends AuthorizationServerConfigurerAdapter {
 
     @Bean
     protected JwtAccessTokenConverter jwtTokenEnhancer() {
-        KeyStoreKeyFactory keyStoreKeyFactory = new KeyStoreKeyFactory(new ClassPathResource("scbp-jwt.jks"), "scbp123".toCharArray());
+        KeyStoreKeyFactory keyStoreKeyFactory = new KeyStoreKeyFactory(new ClassPathResource("fzp-jwt.jks"), "fzp123".toCharArray());
         JwtAccessTokenConverter converter = new JwtAccessTokenConverter();
-        converter.setKeyPair(keyStoreKeyFactory.getKeyPair("scbp-jwt"));
+        converter.setKeyPair(keyStoreKeyFactory.getKeyPair("fzp-jwt"));
         return converter;
     }
 }

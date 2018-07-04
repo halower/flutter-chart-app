@@ -1,7 +1,8 @@
-package cn.halower.infrastructure.log.rabbitmq;
+package cn.halower.infrastructure.uaa.log.rabbitmq;
 
 import cn.halower.infrastructure.log.entitys.SysLog;
 import cn.halower.infrastructure.log.services.LogService;
+import cn.halower.infrastructure.uaa.log.services.LogService;
 import com.alibaba.fastjson.JSON;
 import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -20,7 +20,7 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .regexMatchers(".*swagger.*", ".*v2.*", ".*webjars.*", "/infrastructure/login.*", "/infrastructure/registry.*", "/infrastructure/test.*").permitAll()
+                .regexMatchers(".*swagger.*", ".*v2.*", ".*webjars.*", "/user/login.*", "/user/registry.*", "/user/test.*").permitAll()
                 .antMatchers("/**").authenticated();
     }
 
@@ -28,7 +28,7 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
         log.info("Configuring ResourceServerSecurityConfigurer ");
-        resources.resourceId("infrastructure-service").tokenStore(tokenStore);
+        resources.tokenStore(tokenStore);
     }
 
     @Autowired
