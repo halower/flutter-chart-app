@@ -1,14 +1,13 @@
 package cn.halower.infrastructure.user.domain;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import java.io.Serializable;
-
-/**
- * Created by fangzhipeng on 2017/5/27.
- */
+import java.util.Collection;
+import java.util.List;
 
 @Data
 @Entity

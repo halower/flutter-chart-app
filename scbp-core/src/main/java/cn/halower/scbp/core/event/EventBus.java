@@ -1,9 +1,8 @@
 package cn.halower.scbp.core.event;
 
-import cn.halower.scbp.core.consts.ErrorCode;
-import cn.halower.scbp.core.exceptions.ScbpException;
 import com.google.common.collect.Lists;
 import lombok.var;
+
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -22,7 +21,7 @@ public class EventBus {
     @SuppressWarnings("unchecked")
     public static <T extends EventData> void trigger(final T domainEvent) {
         if (domainEvent == null) {
-            throw new ScbpException(ErrorCode.FAIL,"事件参数不能为空");
+            throw new IllegalArgumentException("事件参数不能为空");
         }
         var handlers = handlerMap.get(domainEvent.getClass());
         if (handlers != null && !handlers.isEmpty()) {

@@ -12,10 +12,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Created by fangzhipeng on 2017/5/27.
- */
-
 @Configuration
 class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 

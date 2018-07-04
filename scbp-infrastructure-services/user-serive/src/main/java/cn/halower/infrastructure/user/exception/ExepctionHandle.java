@@ -1,7 +1,7 @@
 package cn.halower.infrastructure.user.exception;
 
 import cn.halower.scbp.core.dtos.EntityDto;
-import cn.halower.scbp.core.exceptions.ScbpException;
+import cn.halower.scbp.core.exception.ScbpException;
 import lombok.var;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -8,7 +8,7 @@ import cn.halower.infrastructure.user.dots.LoginOutputDto;
 import cn.halower.infrastructure.user.util.PwdEncoderUtil;
 import cn.halower.scbp.core.consts.ErrorCode;
 import cn.halower.scbp.core.dtos.EntityDto;
-import cn.halower.scbp.core.exceptions.ScbpException;
+import cn.halower.scbp.core.exception.BusinessException;
 import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -31,16 +31,14 @@ public class UserService {
     public EntityDto<LoginOutputDto> login(String username, String password) {
         var user = userRepository.findUserByUsername(username);
         if (null == user) {
-            throw new ScbpException(ErrorCode.FAIL, "未找到该用户");
+            throw new BusinessException(ErrorCode.FAIL, "未找到该用户");
         }
         if (!PwdEncoderUtil.matches(password, user.getPassword())){
-            throw new ScbpException(ErrorCode.FAIL, "密码错误");
+            throw new BusinessException(ErrorCode.FAIL, "密码错误");
         }
-
         JWT jwt = clinet.getToken("Basic dXNlci1zZXJ2aWNlOjEyMzQ1Ng==", "password", username, password);
-        // 获得用户菜单
         if(jwt==null){
-            throw new ScbpException(ErrorCode.GET_TOKEN_FAIL);
+            throw new BusinessException(ErrorCode.GET_TOKEN_FAIL);
         }
         var loginDTO=new LoginOutputDto();
         loginDTO.setUser(user);
