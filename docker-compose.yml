@@ -1,9 +1,0 @@
-version: '3'
-services:
-  registrycenter:
-    container_name: registrycenter-test
-    build: ./scbp-eureka-server/src/main/docker
-    ports:
-      - 8761:8761
-    restart: always
-
