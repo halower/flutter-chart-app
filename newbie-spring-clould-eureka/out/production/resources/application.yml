@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: newbie-eureka-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+info:
+  name: newbie-eureka-service
+  descrion: 注册中心，用于服务的注册和发现
+
+logging:
+  level:
+    root: info
+
+server:
+  port: 8761
+---
+spring:
+  profiles: eureka1
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: eureka1
+  client:
+    serviceUrl:
+      defaultZone: http://eureka2:8762/eureka/
+---
+spring:
+  profiles: eureka2
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: eureka2
+  client:
+    serviceUrl:
+      defaultZone: http://eureka1:8761/eureka/

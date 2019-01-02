@@ -1,0 +1,25 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: hystrix-turbine
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+turbine:
+  appConfig: ribbom-hystrix-service,feign-hystrix-service
+  clusterNameExpression: "'default'"
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
