@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-sts:1.11.415">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sts/1.11.415/ed8a29fb016f313978a83330b8a35e6e6d40079/aws-java-sdk-sts-1.11.415.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sts/1.11.415/5208b0ec156db8e7fea263517259779a8fd1ef19/aws-java-sdk-sts-1.11.415-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

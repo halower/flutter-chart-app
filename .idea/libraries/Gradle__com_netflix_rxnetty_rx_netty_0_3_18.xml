@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.rxnetty:rx-netty:0.3.18">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxnetty/rx-netty/0.3.18/a95119081e0a1db227f1d9561decb3716da8f6e2/rx-netty-0.3.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxnetty/rx-netty/0.3.18/d137cb1d54e770660484232c88b96be2df0ec2dc/rx-netty-0.3.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

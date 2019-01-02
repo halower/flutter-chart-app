@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.turbine:turbine-core:1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.turbine/turbine-core/1.0.0/3e30fcc754986657b2ba7f75f9d493db38874f18/turbine-core-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.turbine/turbine-core/1.0.0/7e7762bdf5ad140ef0db8a09d2c74fe9f2865821/turbine-core-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

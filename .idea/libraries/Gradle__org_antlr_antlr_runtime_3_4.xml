@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.antlr:antlr-runtime:3.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

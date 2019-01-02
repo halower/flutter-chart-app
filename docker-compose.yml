@@ -1,0 +1,43 @@
+version:  "3"
+services:
+  eureka1:
+    image: halower/newbie-spring-clould-eureka
+    ports: 
+      - "8761:8761"
+    environment:
+      - "spring.profiles.active=eureka1"
+
+  eureka2:
+    image: halower/newbie-spring-clould-eureka
+    ports:
+      - "8762:8762"
+    environment:
+      - "spring.profiles.active=eureka2"
+
+  springboot-admin:
+    image: halower/newbie-spring-clould-springbootadmin-server
+    ports:
+      - "8763:8763"
+  configservice1:
+    image: halower/newbie-apollo-configservice
+    ports:
+      - "8767:8767"
+  configservice2:
+    image: halower/newbie-apollo-configservice
+    ports:
+      - "8768:8767"
+  adminservice1:
+    image: halower/newbie-apollo-adminservice
+    ports:
+      - "8769:8769"
+  adminservice2:
+    image: halower/newbie-apollo-adminservice
+    ports:
+      - "8770:8769"
+  apolloportal:
+    image: halower/newbie-apollo-portal
+    ports:
+      - "8771:8771"
+
+
+    

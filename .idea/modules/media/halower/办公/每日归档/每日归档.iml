@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../../media/halower/办公/每日归档">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../media/halower/办公/每日归档/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../media/halower/办公/每日归档/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../media/halower/办公/每日归档/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

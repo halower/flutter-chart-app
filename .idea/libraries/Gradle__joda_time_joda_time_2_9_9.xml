@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: joda-time:joda-time:2.9.9">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
