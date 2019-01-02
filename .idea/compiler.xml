@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="2018-11-19_main" target="1.8" />
+      <module name="2018-11-19_test" target="1.8" />
+      <module name="_media_halower_办公_每日归档_2018-11-19_newbie-spring-clould-gateway_main" target="1.8" />
+      <module name="_media_halower_办公_每日归档_2018-11-19_newbie-spring-clould-gateway_test" target="1.8" />
+      <module name="examples_main" target="1.8" />
+      <module name="examples_test" target="1.8" />
+      <module name="halower-办公_main" target="1.8" />
+      <module name="halower-办公_test" target="1.8" />
+      <module name="halower_main" target="1.8" />
+      <module name="halower_test" target="1.8" />
+      <module name="media-halower_main" target="1.8" />
+      <module name="media-halower_test" target="1.8" />
+      <module name="media_main" target="1.8" />
+      <module name="media_test" target="1.8" />
+      <module name="newbie-spring-cloud-examples-consumer-feign-hystrix_main" target="1.8" />
+      <module name="newbie-spring-cloud-examples-consumer-feign-hystrix_test" target="1.8" />
+      <module name="newbie-spring-cloud-gateway_main" target="1.8" />
+      <module name="newbie-spring-cloud-gateway_test" target="1.8" />
+      <module name="newbie-spring-cloud-hystrix-turbaine-kafaka_main" target="1.8" />
+      <module name="newbie-spring-cloud-hystrix-turbaine-kafaka_test" target="1.8" />
+      <module name="newbie-spring-cloud-hystrix-turbaine-mq_main" target="1.8" />
+      <module name="newbie-spring-cloud-hystrix-turbaine-mq_test" target="1.8" />
+      <module name="newbie-spring-cloud-hystrix-turbaine_main" target="1.8" />
+      <module name="newbie-spring-cloud-hystrix-turbaine_test" target="1.8" />
+      <module name="newbie-spring-cloud-provider-service_main" target="1.8" />
+      <module name="newbie-spring-cloud-provider-service_test" target="1.8" />
+      <module name="newbie-spring-cloud-zipkin_main" target="1.8" />
+      <module name="newbie-spring-cloud-zipkin_test" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-media_main" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-media_test" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-cloud-examples-consumer-feign-hystrix_main" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-cloud-examples-consumer-feign-hystrix_test" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-cloud-hystrix-turbaine-kafaka_main" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-cloud-hystrix-turbaine-kafaka_test" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-cloud-hystrix-turbaine_main" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-cloud-hystrix-turbaine_test" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-eureka_main" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-eureka_test" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-examples-consumer-ribbon-hystrix_main" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-examples-consumer-ribbon-hystrix_test" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-examples-serviceprovider_main" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-examples-serviceprovider_test" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-gateway_main" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-gateway_test" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-springbootadmin-server_main" target="1.8" />
+      <module name="newbie-spring-clould-boilerplate-newbie-spring-clould-springbootadmin-server_test" target="1.8" />
+      <module name="newbie-spring-clould-eureka-client_main" target="1.8" />
+      <module name="newbie-spring-clould-eureka-client_test" target="1.8" />
+      <module name="newbie-spring-clould-eureka_main" target="1.8" />
+      <module name="newbie-spring-clould-eureka_test" target="1.8" />
+      <module name="newbie-spring-clould-examples-consumer-ribbon-hystrix_main" target="1.8" />
+      <module name="newbie-spring-clould-examples-consumer-ribbon-hystrix_test" target="1.8" />
+      <module name="newbie-spring-clould-examples-provider-serivce_main" target="1.8" />
+      <module name="newbie-spring-clould-examples-provider-serivce_test" target="1.8" />
+      <module name="newbie-spring-clould-examples-provider_main" target="1.8" />
+      <module name="newbie-spring-clould-examples-provider_test" target="1.8" />
+      <module name="newbie-spring-clould-examples-serviceprovider_main" target="1.8" />
+      <module name="newbie-spring-clould-examples-serviceprovider_test" target="1.8" />
+      <module name="newbie-spring-clould-gateway_main" target="1.8" />
+      <module name="newbie-spring-clould-gateway_test" target="1.8" />
+      <module name="newbie-spring-clould-provider-service_main" target="1.8" />
+      <module name="newbie-spring-clould-provider-service_test" target="1.8" />
+      <module name="newbie-spring-clould-springadminserver_main" target="1.8" />
+      <module name="newbie-spring-clould-springadminserver_test" target="1.8" />
+      <module name="newbie-spring-clould-springbootadmin-server_main" target="1.8" />
+      <module name="newbie-spring-clould-springbootadmin-server_test" target="1.8" />
+      <module name="newbie-spring-clould-zuul_main" target="1.8" />
+      <module name="newbie-spring-clould-zuul_test" target="1.8" />
+      <module name="办公-每日归档_main" target="1.8" />
+      <module name="办公-每日归档_test" target="1.8" />
+      <module name="办公_main" target="1.8" />
+      <module name="办公_test" target="1.8" />
+      <module name="每日归档_main" target="1.8" />
+      <module name="每日归档_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
