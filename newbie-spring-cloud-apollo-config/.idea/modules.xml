@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apollo.iml" filepath="$PROJECT_DIR$/apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-adminservice/apollo-adminservice.iml" filepath="$PROJECT_DIR$/apollo-adminservice/apollo-adminservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-assembly/apollo-assembly.iml" filepath="$PROJECT_DIR$/apollo-assembly/apollo-assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-biz/apollo-biz.iml" filepath="$PROJECT_DIR$/apollo-biz/apollo-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-buildtools/apollo-buildtools.iml" filepath="$PROJECT_DIR$/apollo-buildtools/apollo-buildtools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-client/apollo-client.iml" filepath="$PROJECT_DIR$/apollo-client/apollo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-common/apollo-common.iml" filepath="$PROJECT_DIR$/apollo-common/apollo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-configservice/apollo-configservice.iml" filepath="$PROJECT_DIR$/apollo-configservice/apollo-configservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-core/apollo-core.iml" filepath="$PROJECT_DIR$/apollo-core/apollo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-demo/apollo-demo.iml" filepath="$PROJECT_DIR$/apollo-demo/apollo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-mockserver/apollo-mockserver.iml" filepath="$PROJECT_DIR$/apollo-mockserver/apollo-mockserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-openapi/apollo-openapi.iml" filepath="$PROJECT_DIR$/apollo-openapi/apollo-openapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-portal/apollo-portal.iml" filepath="$PROJECT_DIR$/apollo-portal/apollo-portal.iml" />
+    </modules>
+  </component>
+</project>
