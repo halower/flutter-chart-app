@@ -1,9 +1,17 @@
 
 spring:
   application:
-    name: springboot-admin-server
+    name: newbie-spring-clould-admin-server
 server:
-  port: 8086
+  port: 8763
+
+info:
+  name: newbie-adminserver
+  descrion: 服务监控中心
+
+logging:
+  level:
+    root: info
 
 eureka:
   instance:
@@ -14,7 +22,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8761}/eureka/
+      defaultZone: http://eureka1:8761/eureka/, http://eureka2:8762/eureka/
 
 management:
   endpoints:
