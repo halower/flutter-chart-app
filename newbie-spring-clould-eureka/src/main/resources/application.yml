@@ -9,7 +9,6 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
-
 info:
   name: newbie-eureka-service
   descrion: 注册中心，用于服务的注册和发现
@@ -20,6 +19,10 @@ logging:
 
 server:
   port: 8761
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
 ---
 spring:
   profiles: eureka1
@@ -31,6 +34,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka2:8762/eureka/
+    register-with-eureka: true
+    fetch-registry: true
 ---
 spring:
   profiles: eureka2
@@ -42,3 +47,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka1:8761/eureka/
+  register-with-eureka: true
+  fetch-registry: true
