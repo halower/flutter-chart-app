@@ -7,4 +7,5 @@ include 'newbie-spring-clould-springbootadmin-server'
 include 'newbie-spring-cloud-hystrix-turbaine'
 include 'newbie-spring-cloud-hystrix-turbaine-kafaka'
 include 'newbie-spring-cloud-gateway'
+include 'newbie-spring-cloud-examples-configclient'
 

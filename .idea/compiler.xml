@@ -19,6 +19,8 @@
       <module name="media-halower_test" target="1.8" />
       <module name="media_main" target="1.8" />
       <module name="media_test" target="1.8" />
+      <module name="newbie-spring-cloud-examples-configclient_main" target="1.8" />
+      <module name="newbie-spring-cloud-examples-configclient_test" target="1.8" />
       <module name="newbie-spring-cloud-examples-consumer-feign-hystrix_main" target="1.8" />
       <module name="newbie-spring-cloud-examples-consumer-feign-hystrix_test" target="1.8" />
       <module name="newbie-spring-cloud-gateway_main" target="1.8" />
