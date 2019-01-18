@@ -1,12 +1,17 @@
 spring:
   application:
     name: feign-hystrix-service
+  zipkin:
+    base-url: http://192.168.1.161:9411
+  sleuth:
+    sampler:
+      probability: 1.0
 server:
   port: 8083
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://192.168.1.161:8761/eureka/
   instance:
     prefer-ip-address: true
 

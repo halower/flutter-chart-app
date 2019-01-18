@@ -19,10 +19,18 @@
       <module name="media-halower_test" target="1.8" />
       <module name="media_main" target="1.8" />
       <module name="media_test" target="1.8" />
+      <module name="newbie-spring-cloud-adminserver_main" target="1.8" />
+      <module name="newbie-spring-cloud-adminserver_test" target="1.8" />
+      <module name="newbie-spring-cloud-eureka_main" target="1.8" />
+      <module name="newbie-spring-cloud-eureka_test" target="1.8" />
       <module name="newbie-spring-cloud-examples-configclient_main" target="1.8" />
       <module name="newbie-spring-cloud-examples-configclient_test" target="1.8" />
       <module name="newbie-spring-cloud-examples-consumer-feign-hystrix_main" target="1.8" />
       <module name="newbie-spring-cloud-examples-consumer-feign-hystrix_test" target="1.8" />
+      <module name="newbie-spring-cloud-examples-consumer-ribbon-hystrix_main" target="1.8" />
+      <module name="newbie-spring-cloud-examples-consumer-ribbon-hystrix_test" target="1.8" />
+      <module name="newbie-spring-cloud-examples-serviceprovider_main" target="1.8" />
+      <module name="newbie-spring-cloud-examples-serviceprovider_test" target="1.8" />
       <module name="newbie-spring-cloud-gateway_main" target="1.8" />
       <module name="newbie-spring-cloud-gateway_test" target="1.8" />
       <module name="newbie-spring-cloud-hystrix-turbaine-kafaka_main" target="1.8" />
@@ -33,6 +41,8 @@
       <module name="newbie-spring-cloud-hystrix-turbaine_test" target="1.8" />
       <module name="newbie-spring-cloud-provider-service_main" target="1.8" />
       <module name="newbie-spring-cloud-provider-service_test" target="1.8" />
+      <module name="newbie-spring-cloud-springbootadmin-server_main" target="1.8" />
+      <module name="newbie-spring-cloud-springbootadmin-server_test" target="1.8" />
       <module name="newbie-spring-cloud-zipkin_main" target="1.8" />
       <module name="newbie-spring-cloud-zipkin_test" target="1.8" />
       <module name="newbie-spring-clould-boilerplate-media_main" target="1.8" />
