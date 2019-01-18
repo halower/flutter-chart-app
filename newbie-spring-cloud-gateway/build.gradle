@@ -1,6 +1,11 @@
 apply plugin: 'org.springframework.boot'
 dependencies {
-    compile 'org.springframework.boot:spring-boot-starter-actuator'
-    compile 'org.springframework.cloud:spring-cloud-starter-gateway'
-//    compile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.cloud:spring-cloud-starter-netflix-zuul'
+    compile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    compile 'com.spring4all:swagger-spring-boot-starter:1.8.0.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-jdbc'
+    compile 'mysql:mysql-connector-java'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
 }

@@ -8,4 +8,5 @@
 | newbie-spring-cloud-examples-consumer-feign-hystrix |  `feign`  消费示例 | --|
 |newbie-spring-clould-examples-consumer-ribbon-hystrix|`ribbon` 消费示例 |--|
 |newbie-spring-clould-examples-serviceprovider|生产者服务示例 |--|
-
+|newbie-spring-clould-zipkin|链路追踪 |--|
+|newbie-apollo|配置中心 |[独立仓库](https://github.com/halower/newbie-apollo)|

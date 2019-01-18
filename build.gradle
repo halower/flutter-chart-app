@@ -4,7 +4,7 @@ version '1.0-SNAPSHOT'
 buildscript {
     ext {
         dependencyManagementPluginVersion = '1.0.6.RELEAS'
-        springBootVersion = '2.1.1.RELEASE'
+        springBootVersion = '2.0.7.RELEASE'
         springCloudVersion= 'Finchley.SR2'
     }
     repositories {
