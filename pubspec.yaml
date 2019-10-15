@@ -1,0 +1,81 @@
+name: tbcontact
+description: A new Flutter application.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_webview_plugin: ^0.2.1+2
+  lpinyin: ^1.0.7
+  azlistview: ^0.1.0
+  jmessage_flutter: ^0.0.8
+  json_serializable: ^2.0.1
+  dio: ^2.0.0
+  flutter_slidable: ^0.4.9
+  url_launcher: ^5.0.0
+  font_awesome_flutter: ^8.2.0
+  common_utils: ^1.0.9
+  flushbar: ^1.2.1
+  transparent_image: ^0.1.0
+  cached_network_image: ^0.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+
+  - images/loading.jpg
+  - images/login_logo.png
+
+  #4个tab切换图片资源
+  - images/contact_list_normal.png
+  - images/contact_list_pressed.png
+  - images/find_normal.png
+  - images/find_pressed.png
+  - images/profile_normal.png
+  - images/profile_pressed.png
+  - images/weixin_normal.png
+  - images/weixin_pressed.png
+
+  #菜单按钮
+  - images/icon_menu_addfriend.png
+  - images/icon_menu_group.png
+  - images/icon_menu_scan.png
+
+  #通讯录图标
+  - images/icon_addfriend.png
+  - images/icon_groupchat.png
+  - images/icon_public.png
+
+
+  #发现模块图标
+  - images/icon_friends.png
+  - images/icon_scan.png
+  - images/icon_shake.png
+  - images/icon_look.png
+  - images/icon_search.png
+  - images/icon_near.png
+  - images/icon_bottle.png
+  - images/icon_shop.png
+  - images/icon_game.png
+  - images/icon_link.png
+
+
+  #个人中心模块图标
+  - images/icon_me_card.png
+  - images/icon_me_collect.png
+  - images/icon_me_money.png
+  - images/icon_me_photo.png
+  - images/icon_me_setting.png
+  - images/icon_me_smile.png
+  - images/code.png
+  - images/tutu.png
+
+
+
